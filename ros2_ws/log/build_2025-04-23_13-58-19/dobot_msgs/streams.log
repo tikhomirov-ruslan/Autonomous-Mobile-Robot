@@ -1,0 +1,475 @@
+[0.037s] Invoking command in '/home/ruslan/ros2_ws/build/dobot_msgs': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake /home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs -DCMAKE_INSTALL_PREFIX=/home/ruslan/ros2_ws/install/dobot_msgs
+[0.823s] -- The C compiler identification is GNU 11.4.0
+[0.823s] -- The CXX compiler identification is GNU 11.4.0
+[0.824s] -- Detecting C compiler ABI info
+[0.824s] -- Detecting C compiler ABI info - done
+[0.824s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.824s] -- Detecting C compile features
+[0.824s] -- Detecting C compile features - done
+[0.824s] -- Detecting CXX compiler ABI info
+[0.824s] -- Detecting CXX compiler ABI info - done
+[0.824s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.824s] -- Detecting CXX compile features
+[0.824s] -- Detecting CXX compile features - done
+[0.825s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.825s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.825s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.825s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.825s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.825s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.825s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.851s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.038s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.361s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.362s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.385s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.385s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.385s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.385s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.405s] -- Found PythonExtra: .so  
+[1.459s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.470s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.471s] -- Added test 'lint_cmake' to check CMake code style
+[1.471s] -- Added test 'xmllint' to check XML markup files
+[1.473s] -- Configuring done
+[1.500s] -- Generating done
+[1.509s] -- Build files have been written to: /home/ruslan/ros2_ws/build/dobot_msgs
+[1.517s] Invoked command in '/home/ruslan/ros2_ws/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake /home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs -DCMAKE_INSTALL_PREFIX=/home/ruslan/ros2_ws/install/dobot_msgs
+[1.518s] Invoking command in '/home/ruslan/ros2_ws/build/dobot_msgs': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ruslan/ros2_ws/build/dobot_msgs -- -j16 -l16
+[1.555s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.564s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.571s] [  2%] Built target ament_cmake_python_copy_dobot_msgs
+[1.718s] running egg_info
+[1.718s] creating dobot_msgs.egg-info
+[1.719s] writing dobot_msgs.egg-info/PKG-INFO
+[1.719s] writing dependency_links to dobot_msgs.egg-info/dependency_links.txt
+[1.719s] writing top-level names to dobot_msgs.egg-info/top_level.txt
+[1.719s] writing manifest file 'dobot_msgs.egg-info/SOURCES.txt'
+[1.720s] reading manifest file 'dobot_msgs.egg-info/SOURCES.txt'
+[1.720s] writing manifest file 'dobot_msgs.egg-info/SOURCES.txt'
+[1.738s] [  2%] Built target ament_cmake_python_build_dobot_msgs_egg
+[2.238s] [  2%] Built target dobot_msgs__cpp
+[2.247s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.249s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.249s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.271s] [  6%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/srv/detail/evaluate_ptp_trajectory__functions.c.o[0m
+[2.271s] [  8%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/msg/detail/gripper_status__functions.c.o[0m
+[2.272s] [ 10%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/action/detail/sliding_rail__functions.c.o[0m
+[2.272s] [ 10%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/action/detail/point_to_point__functions.c.o[0m
+[2.272s] [ 11%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/msg/detail/dobot_alarm_codes__functions.c.o[0m
+[2.273s] [ 12%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/srv/detail/gripper_control__functions.c.o[0m
+[2.273s] [ 13%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/srv/detail/execute_homing_procedure__functions.c.o[0m
+[2.273s] [ 14%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/srv/detail/suction_cup_control__functions.c.o[0m
+[2.393s] [ 16%] [32m[1mLinking C shared library libdobot_msgs__rosidl_generator_c.so[0m
+[2.426s] [ 16%] Built target dobot_msgs__rosidl_generator_c
+[2.434s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.435s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.435s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.666s] [ 20%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/msg/dobot_alarm_codes__type_support.cpp.o[0m
+[2.667s] [ 21%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/srv/evaluate_ptp_trajectory__type_support.cpp.o[0m
+[2.667s] [ 22%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/msg/gripper_status__type_support.cpp.o[0m
+[2.668s] [ 25%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/action/point_to_point__type_support.cpp.o[0m
+[2.668s] [ 25%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/action/sliding_rail__type_support.cpp.o[0m
+[2.669s] [ 26%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/srv/execute_homing_procedure__type_support.cpp.o[0m
+[2.669s] [ 27%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/srv/gripper_control__type_support.cpp.o[0m
+[2.670s] [ 28%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/srv/suction_cup_control__type_support.cpp.o[0m
+[2.797s] [ 29%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/action/detail/sliding_rail__type_support.cpp.o[0m
+[2.797s] [ 31%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/msg/detail/gripper_status__type_support.cpp.o[0m
+[2.797s] [ 32%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.cpp.o[0m
+[2.797s] [ 33%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/action/detail/point_to_point__type_support.cpp.o[0m
+[2.965s] [ 34%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.cpp.o[0m
+[2.966s] [ 35%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/srv/detail/execute_homing_procedure__type_support.cpp.o[0m
+[2.970s] [ 36%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/srv/detail/gripper_control__type_support.cpp.o[0m
+[2.973s] [ 37%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/srv/detail/suction_cup_control__type_support.cpp.o[0m
+[3.042s] [ 39%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/msg/detail/dds_fastrtps/dobot_alarm_codes__type_support.cpp.o[0m
+[3.050s] [ 40%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/action/detail/dds_fastrtps/point_to_point__type_support.cpp.o[0m
+[3.050s] [ 41%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/action/detail/dds_fastrtps/sliding_rail__type_support.cpp.o[0m
+[3.096s] [ 42%] [32m[1mLinking CXX shared library libdobot_msgs__rosidl_typesupport_cpp.so[0m
+[3.099s] [ 43%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/msg/detail/dds_fastrtps/gripper_status__type_support.cpp.o[0m
+[3.136s] [ 43%] Built target dobot_msgs__rosidl_typesupport_cpp
+[3.136s] [ 44%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/action/point_to_point__type_support.cpp.o[0m
+[3.145s] [ 45%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/srv/detail/dds_fastrtps/evaluate_ptp_trajectory__type_support.cpp.o[0m
+[3.187s] [ 47%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/action/sliding_rail__type_support.cpp.o[0m
+[3.212s] [ 48%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/srv/detail/dds_fastrtps/execute_homing_procedure__type_support.cpp.o[0m
+[3.231s] [ 49%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/msg/dobot_alarm_codes__type_support.cpp.o[0m
+[3.253s] [ 50%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/msg/gripper_status__type_support.cpp.o[0m
+[3.267s] [ 51%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/srv/evaluate_ptp_trajectory__type_support.cpp.o[0m
+[3.280s] [ 52%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/srv/execute_homing_procedure__type_support.cpp.o[0m
+[3.295s] [ 54%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/srv/gripper_control__type_support.cpp.o[0m
+[3.311s] [ 55%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/srv/detail/dds_fastrtps/gripper_control__type_support.cpp.o[0m
+[3.314s] [ 56%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/srv/detail/dds_fastrtps/suction_cup_control__type_support.cpp.o[0m
+[3.323s] [ 57%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/srv/suction_cup_control__type_support.cpp.o[0m
+[3.351s] [ 58%] [32m[1mLinking CXX shared library libdobot_msgs__rosidl_typesupport_c.so[0m
+[3.394s] [ 58%] Built target dobot_msgs__rosidl_typesupport_c
+[3.447s] [ 62%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/action/detail/point_to_point__type_support.c.o[0m
+[3.447s] [ 62%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/action/detail/sliding_rail__type_support.c.o[0m
+[3.447s] [ 62%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.c.o[0m
+[3.448s] [ 63%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/srv/detail/execute_homing_procedure__type_support.c.o[0m
+[3.448s] [ 65%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.c.o[0m
+[3.448s] [ 65%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/msg/detail/gripper_status__type_support.c.o[0m
+[3.451s] [ 66%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/action/detail/point_to_point__type_support_c.cpp.o[0m
+[3.455s] [ 67%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/srv/detail/gripper_control__type_support.c.o[0m
+[3.460s] [ 68%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/srv/detail/suction_cup_control__type_support.c.o[0m
+[3.481s] [ 70%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/action/detail/sliding_rail__type_support_c.cpp.o[0m
+[3.482s] [ 71%] [32m[1mLinking CXX shared library libdobot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.482s] [ 72%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/msg/detail/dobot_alarm_codes__type_support_c.cpp.o[0m
+[3.487s] [ 73%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/msg/detail/gripper_status__type_support_c.cpp.o[0m
+[3.487s] [ 74%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/srv/detail/gripper_control__type_support_c.cpp.o[0m
+[3.488s] [ 75%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support_c.cpp.o[0m
+[3.488s] [ 77%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/srv/detail/execute_homing_procedure__type_support_c.cpp.o[0m
+[3.498s] [ 78%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/srv/detail/suction_cup_control__type_support_c.cpp.o[0m
+[3.503s] [ 79%] [32m[1mLinking C shared library libdobot_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.552s] [ 79%] Built target dobot_msgs__rosidl_typesupport_introspection_c
+[3.627s] [ 79%] Built target dobot_msgs__rosidl_typesupport_introspection_cpp
+[3.782s] [ 80%] [32m[1mLinking CXX shared library libdobot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.840s] [ 80%] Built target dobot_msgs__rosidl_typesupport_fastrtps_cpp
+[3.867s] [ 81%] [32m[1mLinking CXX shared library libdobot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.919s] [ 81%] Built target dobot_msgs__rosidl_typesupport_fastrtps_c
+[3.934s] [ 81%] Built target dobot_msgs
+[3.955s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.196s] [ 82%] Built target dobot_msgs__py
+[5.216s] [ 85%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/action/_sliding_rail_s.c.o[0m
+[5.216s] [ 85%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/msg/_gripper_status_s.c.o[0m
+[5.216s] [ 86%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/srv/_evaluate_ptp_trajectory_s.c.o[0m
+[5.216s] [ 87%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/srv/_gripper_control_s.c.o[0m
+[5.220s] [ 88%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/action/_point_to_point_s.c.o[0m
+[5.220s] [ 89%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/msg/_dobot_alarm_codes_s.c.o[0m
+[5.222s] [ 90%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/srv/_execute_homing_procedure_s.c.o[0m
+[5.222s] [ 91%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/srv/_suction_cup_control_s.c.o[0m
+[5.333s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/dobot_msgs/libdobot_msgs__rosidl_generator_py.so[0m
+[5.364s] [ 93%] Built target dobot_msgs__rosidl_generator_py
+[5.379s] [ 94%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.379s] [ 95%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.380s] [ 96%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.480s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.482s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.489s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.513s] [100%] Built target dobot_msgs__rosidl_typesupport_introspection_c__pyext
+[5.513s] [100%] Built target dobot_msgs__rosidl_typesupport_c__pyext
+[5.527s] [100%] Built target dobot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.535s] Invoked command in '/home/ruslan/ros2_ws/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ruslan/ros2_ws/build/dobot_msgs -- -j16 -l16
+[5.537s] Invoking command in '/home/ruslan/ros2_ws/build/dobot_msgs': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ruslan/ros2_ws/build/dobot_msgs
+[5.543s] -- Install configuration: ""
+[5.543s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/ament_index/resource_index/rosidl_interfaces/dobot_msgs
+[5.543s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[5.543s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[5.543s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/gripper_control.h
+[5.543s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[5.543s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__struct.h
+[5.543s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__struct.h
+[5.543s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.h
+[5.543s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__functions.c
+[5.544s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.h
+[5.544s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.h
+[5.544s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__functions.h
+[5.544s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__functions.c
+[5.544s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__struct.h
+[5.544s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__functions.h
+[5.544s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__functions.h
+[5.544s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__struct.h
+[5.544s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__functions.h
+[5.544s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.h
+[5.544s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__functions.c
+[5.544s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__functions.c
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/execute_homing_procedure.h
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/evaluate_ptp_trajectory.h
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/suction_cup_control.h
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__struct.h
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__functions.c
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.h
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__functions.h
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__struct.h
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__functions.h
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__functions.c
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.h
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/point_to_point.h
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/sliding_rail.h
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[5.545s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/gripper_status.h
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.h
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__struct.h
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__functions.h
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__functions.c
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.h
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__functions.c
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__functions.h
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__struct.h
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/dobot_alarm_codes.h
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/environment/library_path.sh
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/environment/library_path.dsv
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_generator_c.so
+[5.546s] -- Set runtime path of "/home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_generator_c.so" to ""
+[5.546s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[5.546s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[5.546s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_fastrtps_c.h
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_fastrtps_c.h
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_fastrtps_c.h
+[5.546s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_fastrtps_c.h
+[5.547s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[5.547s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_fastrtps_c.h
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_fastrtps_c.h
+[5.547s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[5.547s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_fastrtps_c.h
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_fastrtps_c.h
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_fastrtps_c.so
+[5.547s] -- Set runtime path of "/home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.547s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[5.547s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[5.547s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_introspection_c.h
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_introspection_c.h
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.c
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_introspection_c.h
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.c
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_introspection_c.h
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.c
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.c
+[5.547s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[5.547s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_introspection_c.h
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.c
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_introspection_c.h
+[5.547s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.c
+[5.548s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[5.548s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.c
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.c
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_introspection_c.h
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_introspection_c.h
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_introspection_c.so
+[5.548s] -- Set runtime path of "/home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_c.so
+[5.548s] -- Set runtime path of "/home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_c.so" to ""
+[5.548s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[5.548s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[5.548s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__struct.hpp
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__traits.hpp
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__traits.hpp
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__traits.hpp
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__builder.hpp
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__struct.hpp
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.hpp
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__traits.hpp
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__builder.hpp
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__struct.hpp
+[5.548s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__builder.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__struct.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__builder.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/execute_homing_procedure.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/suction_cup_control.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/evaluate_ptp_trajectory.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/gripper_control.hpp
+[5.549s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[5.549s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__struct.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__builder.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__traits.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__traits.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__struct.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__builder.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/point_to_point.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/sliding_rail.hpp
+[5.549s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[5.549s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__builder.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__traits.hpp
+[5.549s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__builder.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__traits.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__struct.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__struct.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/gripper_status.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/dobot_alarm_codes.hpp
+[5.550s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[5.550s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[5.550s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_fastrtps_cpp.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/dds_fastrtps
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_fastrtps_cpp.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_fastrtps_cpp.hpp
+[5.550s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[5.550s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_fastrtps_cpp.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/dds_fastrtps
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_fastrtps_cpp.hpp
+[5.550s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[5.550s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dds_fastrtps
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_fastrtps_cpp.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.550s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.550s] -- Set runtime path of "/home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.551s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[5.551s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[5.551s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_introspection_cpp.hpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.cpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_introspection_cpp.hpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.cpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.cpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_introspection_cpp.hpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.cpp
+[5.551s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[5.551s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_introspection_cpp.hpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_introspection_cpp.hpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.cpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.cpp
+[5.551s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[5.551s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.cpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_introspection_cpp.hpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.cpp
+[5.551s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_introspection_cpp.so
+[5.551s] -- Set runtime path of "/home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_cpp.so
+[5.552s] -- Set runtime path of "/home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_cpp.so" to ""
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/environment/pythonpath.sh
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/environment/pythonpath.dsv
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_gripper_control.py
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_gripper_control_s.c
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/__init__.py
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_execute_homing_procedure_s.c
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_execute_homing_procedure.py
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_suction_cup_control.py
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_evaluate_ptp_trajectory_s.c
+[5.552s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_evaluate_ptp_trajectory.py
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_suction_cup_control_s.c
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/__init__.py
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_sliding_rail_s.c
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_sliding_rail.py
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_point_to_point.py
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_point_to_point_s.c
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/__init__.py
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_c.c
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/__init__.py
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_dobot_alarm_codes_s.c
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_dobot_alarm_codes.py
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_gripper_status.py
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_gripper_status_s.c
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/libdobot_msgs__rosidl_generator_py.so
+[5.553s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.587s] Listing '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs'...
+[5.587s] Compiling '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/__init__.py'...
+[5.587s] Listing '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action'...
+[5.587s] Compiling '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/__init__.py'...
+[5.587s] Compiling '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_point_to_point.py'...
+[5.587s] Compiling '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_sliding_rail.py'...
+[5.587s] Listing '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg'...
+[5.587s] Compiling '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/__init__.py'...
+[5.588s] Compiling '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_dobot_alarm_codes.py'...
+[5.588s] Compiling '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_gripper_status.py'...
+[5.588s] Listing '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv'...
+[5.588s] Compiling '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/__init__.py'...
+[5.588s] Compiling '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_evaluate_ptp_trajectory.py'...
+[5.588s] Compiling '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_execute_homing_procedure.py'...
+[5.588s] Compiling '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_gripper_control.py'...
+[5.588s] Compiling '/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_suction_cup_control.py'...
+[5.590s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.590s] -- Set runtime path of "/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.590s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.590s] -- Set runtime path of "/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.591s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.591s] -- Set runtime path of "/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.591s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_generator_py.so
+[5.591s] -- Set runtime path of "/home/ruslan/ros2_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_generator_py.so" to ""
+[5.591s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/action/PointToPoint.idl
+[5.591s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/action/SlidingRail.idl
+[5.591s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/msg/DobotAlarmCodes.idl
+[5.591s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/msg/GripperStatus.idl
+[5.591s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory.idl
+[5.591s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure.idl
+[5.591s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/GripperControl.idl
+[5.591s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl.idl
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/action/PointToPoint.action
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/action/SlidingRail.action
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/msg/DobotAlarmCodes.msg
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/msg/GripperStatus.msg
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory.srv
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory_Request.msg
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory_Response.msg
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure.srv
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure_Request.msg
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure_Response.msg
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/GripperControl.srv
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/GripperControl_Request.msg
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/GripperControl_Response.msg
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl.srv
+[5.592s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl_Request.msg
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl_Response.msg
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/ament_index/resource_index/package_run_dependencies/dobot_msgs
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/ament_index/resource_index/parent_prefix_path/dobot_msgs
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/environment/ament_prefix_path.sh
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/environment/ament_prefix_path.dsv
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/environment/path.sh
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/environment/path.dsv
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/local_setup.bash
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/local_setup.sh
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/local_setup.zsh
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/local_setup.dsv
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/package.dsv
+[5.593s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/ament_index/resource_index/packages/dobot_msgs
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_cExport.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cExport.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_cppExport.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cppExport.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.594s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_pyExport.cmake
+[5.595s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.595s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/rosidl_cmake-extras.cmake
+[5.595s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.595s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.595s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.595s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.596s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.596s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.596s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgsConfig.cmake
+[5.596s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgsConfig-version.cmake
+[5.596s] -- Installing: /home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/package.xml
+[5.596s] Invoked command in '/home/ruslan/ros2_ws/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ruslan/ros2_ws/build/dobot_msgs

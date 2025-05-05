@@ -1,0 +1,60 @@
+[1.368s] Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_control_panel': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_control_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_control_panel build --build-base /home/ruslan/ros2_ws/build/dobot_control_panel/build install --record /home/ruslan/ros2_ws/build/dobot_control_panel/install.log --single-version-externally-managed install_data
+[1.524s] running egg_info
+[1.524s] creating ../../../build/dobot_control_panel/dobot_control_panel.egg-info
+[1.525s] writing ../../../build/dobot_control_panel/dobot_control_panel.egg-info/PKG-INFO
+[1.525s] writing dependency_links to ../../../build/dobot_control_panel/dobot_control_panel.egg-info/dependency_links.txt
+[1.525s] writing entry points to ../../../build/dobot_control_panel/dobot_control_panel.egg-info/entry_points.txt
+[1.525s] writing requirements to ../../../build/dobot_control_panel/dobot_control_panel.egg-info/requires.txt
+[1.525s] writing top-level names to ../../../build/dobot_control_panel/dobot_control_panel.egg-info/top_level.txt
+[1.525s] writing manifest file '../../../build/dobot_control_panel/dobot_control_panel.egg-info/SOURCES.txt'
+[1.526s] reading manifest file '../../../build/dobot_control_panel/dobot_control_panel.egg-info/SOURCES.txt'
+[1.526s] writing manifest file '../../../build/dobot_control_panel/dobot_control_panel.egg-info/SOURCES.txt'
+[1.527s] running build
+[1.527s] running build_py
+[1.527s] creating /home/ruslan/ros2_ws/build/dobot_control_panel/build
+[1.527s] creating /home/ruslan/ros2_ws/build/dobot_control_panel/build/lib
+[1.527s] creating /home/ruslan/ros2_ws/build/dobot_control_panel/build/lib/dobot_control_panel
+[1.527s] copying dobot_control_panel/__init__.py -> /home/ruslan/ros2_ws/build/dobot_control_panel/build/lib/dobot_control_panel
+[1.527s] copying dobot_control_panel/dobot_control_panel_widget.py -> /home/ruslan/ros2_ws/build/dobot_control_panel/build/lib/dobot_control_panel
+[1.527s] copying dobot_control_panel/ros2_dobot_control_panel.py -> /home/ruslan/ros2_ws/build/dobot_control_panel/build/lib/dobot_control_panel
+[1.527s] copying dobot_control_panel/main.py -> /home/ruslan/ros2_ws/build/dobot_control_panel/build/lib/dobot_control_panel
+[1.527s] running install
+[1.527s] running install_lib
+[1.527s] creating /home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[1.527s] copying /home/ruslan/ros2_ws/build/dobot_control_panel/build/lib/dobot_control_panel/__init__.py -> /home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[1.528s] copying /home/ruslan/ros2_ws/build/dobot_control_panel/build/lib/dobot_control_panel/dobot_control_panel_widget.py -> /home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[1.528s] copying /home/ruslan/ros2_ws/build/dobot_control_panel/build/lib/dobot_control_panel/ros2_dobot_control_panel.py -> /home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[1.528s] copying /home/ruslan/ros2_ws/build/dobot_control_panel/build/lib/dobot_control_panel/main.py -> /home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[1.528s] byte-compiling /home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel/__init__.py to __init__.cpython-310.pyc
+[1.528s] byte-compiling /home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel/dobot_control_panel_widget.py to dobot_control_panel_widget.cpython-310.pyc
+[1.530s] byte-compiling /home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel/ros2_dobot_control_panel.py to ros2_dobot_control_panel.cpython-310.pyc
+[1.530s] byte-compiling /home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel/main.py to main.cpython-310.pyc
+[1.530s] running install_data
+[1.530s] creating /home/ruslan/ros2_ws/install/dobot_control_panel/share/ament_index
+[1.530s] creating /home/ruslan/ros2_ws/install/dobot_control_panel/share/ament_index/resource_index
+[1.531s] creating /home/ruslan/ros2_ws/install/dobot_control_panel/share/ament_index/resource_index/packages
+[1.531s] copying resource/dobot_control_panel -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/ament_index/resource_index/packages
+[1.531s] copying package.xml -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel
+[1.531s] creating /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource
+[1.531s] copying resource/DobotControlPanel_layout.ui -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource
+[1.531s] copying plugin.xml -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel
+[1.531s] creating /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.531s] copying resource/images/magician_gui_image.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.531s] copying resource/images/estop.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.531s] copying resource/images/dobot_joints_system.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.531s] copying resource/images/gripper.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.531s] copying resource/images/blue_house.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.531s] copying resource/images/info.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.531s] copying resource/images/settings.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.532s] copying resource/images/velocity.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.532s] copying resource/images/cartesian_system.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.532s] copying resource/images/suction_cup.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.532s] copying resource/images/stop_rail.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.532s] copying resource/images/sliding_rail2.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.532s] copying resource/images/coordinate_system.png -> /home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[1.532s] running install_egg_info
+[1.533s] Copying ../../../build/dobot_control_panel/dobot_control_panel.egg-info to /home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel-1.0.0-py3.10.egg-info
+[1.533s] running install_scripts
+[1.547s] Installing dobot_control_panel script to /home/ruslan/ros2_ws/install/dobot_control_panel/lib/dobot_control_panel
+[1.547s] writing list of installed files to '/home/ruslan/ros2_ws/build/dobot_control_panel/install.log'
+[1.568s] Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_control_panel' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_control_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_control_panel build --build-base /home/ruslan/ros2_ws/build/dobot_control_panel/build install --record /home/ruslan/ros2_ws/build/dobot_control_panel/install.log --single-version-externally-managed install_data

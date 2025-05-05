@@ -1,0 +1,22 @@
+[1.448s] Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_motion': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_motion build --build-base /home/ruslan/ros2_ws/build/dobot_motion/build install --record /home/ruslan/ros2_ws/build/dobot_motion/install.log --single-version-externally-managed install_data
+[1.666s] running egg_info
+[1.667s] writing ../../../build/dobot_motion/dobot_motion.egg-info/PKG-INFO
+[1.667s] writing dependency_links to ../../../build/dobot_motion/dobot_motion.egg-info/dependency_links.txt
+[1.667s] writing entry points to ../../../build/dobot_motion/dobot_motion.egg-info/entry_points.txt
+[1.667s] writing requirements to ../../../build/dobot_motion/dobot_motion.egg-info/requires.txt
+[1.667s] writing top-level names to ../../../build/dobot_motion/dobot_motion.egg-info/top_level.txt
+[1.668s] reading manifest file '../../../build/dobot_motion/dobot_motion.egg-info/SOURCES.txt'
+[1.669s] writing manifest file '../../../build/dobot_motion/dobot_motion.egg-info/SOURCES.txt'
+[1.669s] running build
+[1.669s] running build_py
+[1.669s] running install
+[1.669s] running install_lib
+[1.670s] running install_data
+[1.670s] running install_egg_info
+[1.671s] removing '/home/ruslan/ros2_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion-1.0.0-py3.10.egg-info' (and everything under it)
+[1.671s] Copying ../../../build/dobot_motion/dobot_motion.egg-info to /home/ruslan/ros2_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion-1.0.0-py3.10.egg-info
+[1.672s] running install_scripts
+[1.689s] Installing PTP_server script to /home/ruslan/ros2_ws/install/dobot_motion/lib/dobot_motion
+[1.689s] Installing sliding_rail_server script to /home/ruslan/ros2_ws/install/dobot_motion/lib/dobot_motion
+[1.690s] writing list of installed files to '/home/ruslan/ros2_ws/build/dobot_motion/install.log'
+[1.705s] Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_motion' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_motion build --build-base /home/ruslan/ros2_ws/build/dobot_motion/build install --record /home/ruslan/ros2_ws/build/dobot_motion/install.log --single-version-externally-managed install_data

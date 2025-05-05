@@ -1,0 +1,40 @@
+[1.413s] Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_homing': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_homing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_homing/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_homing build --build-base /home/ruslan/ros2_ws/build/dobot_homing/build install --record /home/ruslan/ros2_ws/build/dobot_homing/install.log --single-version-externally-managed install_data
+[1.559s] running egg_info
+[1.559s] creating ../../../build/dobot_homing/dobot_homing.egg-info
+[1.560s] writing ../../../build/dobot_homing/dobot_homing.egg-info/PKG-INFO
+[1.560s] writing dependency_links to ../../../build/dobot_homing/dobot_homing.egg-info/dependency_links.txt
+[1.560s] writing entry points to ../../../build/dobot_homing/dobot_homing.egg-info/entry_points.txt
+[1.560s] writing requirements to ../../../build/dobot_homing/dobot_homing.egg-info/requires.txt
+[1.560s] writing top-level names to ../../../build/dobot_homing/dobot_homing.egg-info/top_level.txt
+[1.560s] writing manifest file '../../../build/dobot_homing/dobot_homing.egg-info/SOURCES.txt'
+[1.561s] reading manifest file '../../../build/dobot_homing/dobot_homing.egg-info/SOURCES.txt'
+[1.563s] writing manifest file '../../../build/dobot_homing/dobot_homing.egg-info/SOURCES.txt'
+[1.563s] running build
+[1.563s] running build_py
+[1.563s] creating /home/ruslan/ros2_ws/build/dobot_homing/build
+[1.563s] creating /home/ruslan/ros2_ws/build/dobot_homing/build/lib
+[1.563s] creating /home/ruslan/ros2_ws/build/dobot_homing/build/lib/dobot_homing
+[1.563s] copying dobot_homing/__init__.py -> /home/ruslan/ros2_ws/build/dobot_homing/build/lib/dobot_homing
+[1.563s] copying dobot_homing/homing_server.py -> /home/ruslan/ros2_ws/build/dobot_homing/build/lib/dobot_homing
+[1.563s] running install
+[1.563s] running install_lib
+[1.563s] creating /home/ruslan/ros2_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing
+[1.563s] copying /home/ruslan/ros2_ws/build/dobot_homing/build/lib/dobot_homing/__init__.py -> /home/ruslan/ros2_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing
+[1.563s] copying /home/ruslan/ros2_ws/build/dobot_homing/build/lib/dobot_homing/homing_server.py -> /home/ruslan/ros2_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing
+[1.563s] byte-compiling /home/ruslan/ros2_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing/__init__.py to __init__.cpython-310.pyc
+[1.563s] byte-compiling /home/ruslan/ros2_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing/homing_server.py to homing_server.cpython-310.pyc
+[1.564s] running install_data
+[1.564s] creating /home/ruslan/ros2_ws/install/dobot_homing/share/ament_index
+[1.564s] creating /home/ruslan/ros2_ws/install/dobot_homing/share/ament_index/resource_index
+[1.564s] creating /home/ruslan/ros2_ws/install/dobot_homing/share/ament_index/resource_index/packages
+[1.564s] copying resource/dobot_homing -> /home/ruslan/ros2_ws/install/dobot_homing/share/ament_index/resource_index/packages
+[1.564s] copying package.xml -> /home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing
+[1.564s] copying launch/dobot_homing.launch.py -> /home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing
+[1.564s] creating /home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/config
+[1.564s] copying config/homing_params.yaml -> /home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/config
+[1.564s] running install_egg_info
+[1.565s] Copying ../../../build/dobot_homing/dobot_homing.egg-info to /home/ruslan/ros2_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing-1.0.0-py3.10.egg-info
+[1.565s] running install_scripts
+[1.578s] Installing homing_server script to /home/ruslan/ros2_ws/install/dobot_homing/lib/dobot_homing
+[1.578s] writing list of installed files to '/home/ruslan/ros2_ws/build/dobot_homing/install.log'
+[1.597s] Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_homing' returned '0': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_homing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_homing/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_homing build --build-base /home/ruslan/ros2_ws/build/dobot_homing/build install --record /home/ruslan/ros2_ws/build/dobot_homing/install.log --single-version-externally-managed install_data

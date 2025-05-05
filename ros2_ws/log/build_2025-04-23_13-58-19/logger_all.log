@@ -1,0 +1,943 @@
+[0.072s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.072s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75ad26d52950>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75ad26d523e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75ad26d523e0>>, mixin_verb=('build',))
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.169s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ruslan/ros2_ws'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_controller) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_controller) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_controller) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_controller) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_controller) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_controller) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_controller) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_controller) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_controller' with type 'ros.ament_python' and name 'dobot_controller'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracker) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracker) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracker) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracker) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracker) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracker) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracker) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracker) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hand_tracker' with type 'ros.ament_python' and name 'hand_tracker'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_bringup) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_bringup) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_bringup) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_bringup) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_bringup) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_bringup) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_bringup) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_bringup) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_bringup' with type 'ros.ament_python' and name 'dobot_bringup'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_control_panel) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_control_panel) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_control_panel) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_control_panel) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_control_panel) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_control_panel) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_control_panel) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_control_panel) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_control_panel) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_control_panel' with type 'ros.ament_python' and name 'dobot_control_panel'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_demos) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_demos) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_demos) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_demos) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_demos) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_demos) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_demos) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_demos) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_demos' with type 'ros.ament_python' and name 'dobot_demos'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_description) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_description) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_description) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_description) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_description) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_description) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_description) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_description) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_description' with type 'ros.ament_cmake' and name 'dobot_description'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_diagnostics) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_diagnostics) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_diagnostics) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_diagnostics) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_diagnostics) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_diagnostics) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_diagnostics) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_diagnostics) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_diagnostics' with type 'ros.ament_python' and name 'dobot_diagnostics'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_driver) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_driver) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_driver) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_driver) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_driver) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_driver) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_driver) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_driver) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_driver' with type 'ros.ament_cmake' and name 'dobot_driver'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_end_effector) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_end_effector) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_end_effector) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_end_effector) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_end_effector) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_end_effector) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_end_effector) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_end_effector) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_end_effector) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_end_effector' with type 'ros.ament_python' and name 'dobot_end_effector'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_homing) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_homing) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_homing) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_homing) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_homing) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_homing) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_homing) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_homing) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_homing) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_homing' with type 'ros.ament_python' and name 'dobot_homing'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_kinematics) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_kinematics) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_kinematics) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_kinematics) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_kinematics) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_kinematics) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_kinematics) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_kinematics) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_kinematics' with type 'ros.ament_python' and name 'dobot_kinematics'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_motion) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_motion) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_motion) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_motion) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_motion) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_motion) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_motion) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_motion) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_motion' with type 'ros.ament_python' and name 'dobot_motion'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_msgs) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_msgs) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_msgs) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_msgs) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_msgs) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_msgs) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_msgs) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_msgs) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_msgs' with type 'ros.ament_cmake' and name 'dobot_msgs'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_state_updater) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_state_updater) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_state_updater) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_state_updater) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_state_updater) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_state_updater) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_state_updater) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_state_updater) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_state_updater) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_state_updater' with type 'ros.ament_python' and name 'dobot_state_updater'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_visualization_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_visualization_tools) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_visualization_tools) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_visualization_tools) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_visualization_tools) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_visualization_tools) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_visualization_tools) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_visualization_tools) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/magician_ros2/dobot_visualization_tools) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/magician_ros2/dobot_visualization_tools' with type 'ros.ament_python' and name 'dobot_visualization_tools'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_publisher) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_publisher) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_publisher) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_publisher) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_publisher) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_publisher) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_publisher) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_publisher) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webcam_publisher' with type 'ros.ament_python' and name 'webcam_publisher'
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.208s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ruslan/ros2_ws/install
+[0.208s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_bringup', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_control_panel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_control_panel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_control_panel', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_control_panel', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_controller' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_controller' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dobot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_controller', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/dobot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_description', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_description', 'symlink_install': False, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_driver', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_driver', 'symlink_install': False, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_msgs', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_visualization_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_visualization_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_visualization_tools', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_visualization_tools', 'symlink_install': False, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'hand_tracker' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'hand_tracker' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'hand_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'hand_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'hand_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'hand_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'hand_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'hand_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'hand_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'hand_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/hand_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/hand_tracker', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/hand_tracker', 'symlink_install': False, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'webcam_publisher' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'webcam_publisher' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'webcam_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'webcam_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'webcam_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'webcam_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'webcam_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'webcam_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'webcam_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'webcam_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/webcam_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/webcam_publisher', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/webcam_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_demos', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_demos', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_diagnostics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_diagnostics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_diagnostics', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_diagnostics', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_end_effector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_end_effector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_end_effector', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_end_effector', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_homing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_homing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_homing', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_homing', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_kinematics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_kinematics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_kinematics', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_kinematics', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_motion', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_motion', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_state_updater' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruslan/ros2_ws/build/dobot_state_updater', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruslan/ros2_ws/install/dobot_state_updater', 'merge_install': False, 'path': '/home/ruslan/ros2_ws/src/magician_ros2/dobot_state_updater', 'symlink_install': False, 'test_result_base': None}
+[0.234s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs' with build type 'ament_cmake'
+[0.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs'
+[0.237s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_bringup' with build type 'ament_python'
+[0.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup', 'ament_prefix_path')
+[0.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup/hook/ament_prefix_path.ps1'
+[0.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup/hook/ament_prefix_path.dsv'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup/hook/ament_prefix_path.sh'
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.248s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_control_panel' with build type 'ament_python'
+[0.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_control_panel', 'ament_prefix_path')
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/hook/ament_prefix_path.ps1'
+[0.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/hook/ament_prefix_path.dsv'
+[0.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/hook/ament_prefix_path.sh'
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/dobot_controller' with build type 'ament_python'
+[0.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_controller', 'ament_prefix_path')
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_controller/share/dobot_controller/hook/ament_prefix_path.ps1'
+[0.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_controller/share/dobot_controller/hook/ament_prefix_path.dsv'
+[0.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_controller/share/dobot_controller/hook/ament_prefix_path.sh'
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_description' with build type 'ament_cmake'
+[0.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_description'
+[0.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_driver' with build type 'ament_cmake'
+[0.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_driver'
+[0.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_visualization_tools' with build type 'ament_python'
+[0.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_visualization_tools', 'ament_prefix_path')
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/ament_prefix_path.ps1'
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/ament_prefix_path.dsv'
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/ament_prefix_path.sh'
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/hand_tracker' with build type 'ament_python'
+[0.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand_tracker', 'ament_prefix_path')
+[0.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/hand_tracker/share/hand_tracker/hook/ament_prefix_path.ps1'
+[0.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/hand_tracker/share/hand_tracker/hook/ament_prefix_path.dsv'
+[0.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/hand_tracker/share/hand_tracker/hook/ament_prefix_path.sh'
+[0.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/webcam_publisher' with build type 'ament_python'
+[0.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('webcam_publisher', 'ament_prefix_path')
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/webcam_publisher/share/webcam_publisher/hook/ament_prefix_path.ps1'
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/webcam_publisher/share/webcam_publisher/hook/ament_prefix_path.dsv'
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/webcam_publisher/share/webcam_publisher/hook/ament_prefix_path.sh'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/build/dobot_msgs': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake /home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs -DCMAKE_INSTALL_PREFIX=/home/ruslan/ros2_ws/install/dobot_msgs
+[0.424s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_bringup'
+[0.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.579s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_control_panel'
+[0.579s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.734s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/dobot_controller'
+[0.734s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.734s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/build/dobot_description': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake /home/ruslan/ros2_ws/src/magician_ros2/dobot_description -DCMAKE_INSTALL_PREFIX=/home/ruslan/ros2_ws/install/dobot_description
+[0.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/build/dobot_driver': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake /home/ruslan/ros2_ws/src/magician_ros2/dobot_driver -DCMAKE_INSTALL_PREFIX=/home/ruslan/ros2_ws/install/dobot_driver
+[0.895s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_visualization_tools'
+[0.896s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.896s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.054s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/hand_tracker'
+[1.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.217s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/webcam_publisher'
+[1.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/build/dobot_description' returned '0': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake /home/ruslan/ros2_ws/src/magician_ros2/dobot_description -DCMAKE_INSTALL_PREFIX=/home/ruslan/ros2_ws/install/dobot_description
+[1.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/build/dobot_description': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ruslan/ros2_ws/build/dobot_description -- -j16 -l16
+[1.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/build/dobot_driver' returned '0': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake /home/ruslan/ros2_ws/src/magician_ros2/dobot_driver -DCMAKE_INSTALL_PREFIX=/home/ruslan/ros2_ws/install/dobot_driver
+[1.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/build/dobot_driver': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ruslan/ros2_ws/build/dobot_driver -- -j16 -l16
+[1.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/build/dobot_description' returned '0': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ruslan/ros2_ws/build/dobot_description -- -j16 -l16
+[1.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/build/dobot_description': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ruslan/ros2_ws/build/dobot_description
+[1.309s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_description)
+[1.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/build/dobot_description' returned '0': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ruslan/ros2_ws/build/dobot_description
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_description' for CMake module files
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_description' for CMake config files
+[1.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_description', 'cmake_prefix_path')
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/hook/cmake_prefix_path.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/hook/cmake_prefix_path.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/hook/cmake_prefix_path.sh'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_description/bin'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_description/lib/pkgconfig/dobot_description.pc'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_description/lib/python3.10/site-packages'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_description/bin'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/package.ps1'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/package.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/package.sh'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/package.bash'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/package.zsh'
+[1.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_description/share/colcon-core/packages/dobot_description)
+[1.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_description)
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_description' for CMake module files
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_description' for CMake config files
+[1.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_description', 'cmake_prefix_path')
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/hook/cmake_prefix_path.ps1'
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/hook/cmake_prefix_path.dsv'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/hook/cmake_prefix_path.sh'
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_description/bin'
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_description/lib/pkgconfig/dobot_description.pc'
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_description/lib/python3.10/site-packages'
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_description/bin'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/package.ps1'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/package.dsv'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/package.sh'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/package.bash'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_description/share/dobot_description/package.zsh'
+[1.325s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_description/share/colcon-core/packages/dobot_description)
+[1.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/dobot_controller': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_controller build --build-base /home/ruslan/ros2_ws/build/dobot_controller/build install --record /home/ruslan/ros2_ws/build/dobot_controller/install.log --single-version-externally-managed install_data
+[1.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/webcam_publisher': PYTHONPATH=/home/ruslan/ros2_ws/build/webcam_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/webcam_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webcam_publisher build --build-base /home/ruslan/ros2_ws/build/webcam_publisher/build install --record /home/ruslan/ros2_ws/build/webcam_publisher/install.log --single-version-externally-managed install_data
+[1.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/build/dobot_driver' returned '0': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ruslan/ros2_ws/build/dobot_driver -- -j16 -l16
+[1.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/build/dobot_driver': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ruslan/ros2_ws/build/dobot_driver
+[1.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/hand_tracker': PYTHONPATH=/home/ruslan/ros2_ws/build/hand_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hand_tracker build --build-base /home/ruslan/ros2_ws/build/hand_tracker/build install --record /home/ruslan/ros2_ws/build/hand_tracker/install.log --single-version-externally-managed install_data
+[1.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_driver)
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_driver' for CMake module files
+[1.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/build/dobot_driver' returned '0': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ruslan/ros2_ws/build/dobot_driver
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_driver' for CMake config files
+[1.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_driver', 'cmake_prefix_path')
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/hook/cmake_prefix_path.ps1'
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/hook/cmake_prefix_path.dsv'
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/hook/cmake_prefix_path.sh'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_driver/bin'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_driver/lib/pkgconfig/dobot_driver.pc'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_driver/lib/python3.10/site-packages'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_driver/bin'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/package.ps1'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/package.dsv'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/package.sh'
+[1.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/package.bash'
+[1.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/package.zsh'
+[1.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_driver/share/colcon-core/packages/dobot_driver)
+[1.527s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_driver)
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_driver' for CMake module files
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_driver' for CMake config files
+[1.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_driver', 'cmake_prefix_path')
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/hook/cmake_prefix_path.ps1'
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/hook/cmake_prefix_path.dsv'
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/hook/cmake_prefix_path.sh'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_driver/bin'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_driver/lib/pkgconfig/dobot_driver.pc'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_driver/lib/python3.10/site-packages'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_driver/bin'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/package.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/package.dsv'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/package.sh'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/package.bash'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/package.zsh'
+[1.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_driver/share/colcon-core/packages/dobot_driver)
+[1.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_bringup': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_bringup build --build-base /home/ruslan/ros2_ws/build/dobot_bringup/build install --record /home/ruslan/ros2_ws/build/dobot_bringup/install.log --single-version-externally-managed install_data
+[1.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_visualization_tools': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_visualization_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_visualization_tools build --build-base /home/ruslan/ros2_ws/build/dobot_visualization_tools/build install --record /home/ruslan/ros2_ws/build/dobot_visualization_tools/install.log --single-version-externally-managed install_data
+[1.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_control_panel': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_control_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_control_panel build --build-base /home/ruslan/ros2_ws/build/dobot_control_panel/build install --record /home/ruslan/ros2_ws/build/dobot_control_panel/install.log --single-version-externally-managed install_data
+[1.684s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/webcam_publisher' for CMake module files
+[1.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/webcam_publisher' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/webcam_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/webcam_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webcam_publisher build --build-base /home/ruslan/ros2_ws/build/webcam_publisher/build install --record /home/ruslan/ros2_ws/build/webcam_publisher/install.log --single-version-externally-managed install_data
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/webcam_publisher' for CMake config files
+[1.686s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/webcam_publisher/lib'
+[1.686s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/webcam_publisher/bin'
+[1.686s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/webcam_publisher/lib/pkgconfig/webcam_publisher.pc'
+[1.686s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/webcam_publisher/lib/python3.10/site-packages'
+[1.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('webcam_publisher', 'pythonpath')
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/webcam_publisher/share/webcam_publisher/hook/pythonpath.ps1'
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/webcam_publisher/share/webcam_publisher/hook/pythonpath.dsv'
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/webcam_publisher/share/webcam_publisher/hook/pythonpath.sh'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/webcam_publisher/bin'
+[1.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webcam_publisher)
+[1.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/webcam_publisher/share/webcam_publisher/package.ps1'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/webcam_publisher/share/webcam_publisher/package.dsv'
+[1.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/webcam_publisher/share/webcam_publisher/package.sh'
+[1.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/webcam_publisher/share/webcam_publisher/package.bash'
+[1.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/webcam_publisher/share/webcam_publisher/package.zsh'
+[1.691s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/webcam_publisher/share/colcon-core/packages/webcam_publisher)
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/hand_tracker' for CMake module files
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/hand_tracker' for CMake config files
+[1.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/hand_tracker' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/hand_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hand_tracker build --build-base /home/ruslan/ros2_ws/build/hand_tracker/build install --record /home/ruslan/ros2_ws/build/hand_tracker/install.log --single-version-externally-managed install_data
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/hand_tracker/lib'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/hand_tracker/bin'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/hand_tracker/lib/pkgconfig/hand_tracker.pc'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages'
+[1.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand_tracker', 'pythonpath')
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/hand_tracker/share/hand_tracker/hook/pythonpath.ps1'
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/hand_tracker/share/hand_tracker/hook/pythonpath.dsv'
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/hand_tracker/share/hand_tracker/hook/pythonpath.sh'
+[1.693s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/hand_tracker/bin'
+[1.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hand_tracker)
+[1.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/hand_tracker/share/hand_tracker/package.ps1'
+[1.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/hand_tracker/share/hand_tracker/package.dsv'
+[1.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/hand_tracker/share/hand_tracker/package.sh'
+[1.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/hand_tracker/share/hand_tracker/package.bash'
+[1.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/hand_tracker/share/hand_tracker/package.zsh'
+[1.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/hand_tracker/share/colcon-core/packages/hand_tracker)
+[1.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake /home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs -DCMAKE_INSTALL_PREFIX=/home/ruslan/ros2_ws/install/dobot_msgs
+[1.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/build/dobot_msgs': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ruslan/ros2_ws/build/dobot_msgs -- -j16 -l16
+[1.754s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_controller' for CMake module files
+[1.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/dobot_controller' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_controller build --build-base /home/ruslan/ros2_ws/build/dobot_controller/build install --record /home/ruslan/ros2_ws/build/dobot_controller/install.log --single-version-externally-managed install_data
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_controller' for CMake config files
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_controller/lib'
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_controller/bin'
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_controller/lib/pkgconfig/dobot_controller.pc'
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages'
+[1.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_controller', 'pythonpath')
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_controller/share/dobot_controller/hook/pythonpath.ps1'
+[1.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_controller/share/dobot_controller/hook/pythonpath.dsv'
+[1.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_controller/share/dobot_controller/hook/pythonpath.sh'
+[1.758s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_controller/bin'
+[1.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_controller)
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_controller/share/dobot_controller/package.ps1'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_controller/share/dobot_controller/package.dsv'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_controller/share/dobot_controller/package.sh'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_controller/share/dobot_controller/package.bash'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_controller/share/dobot_controller/package.zsh'
+[1.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_controller/share/colcon-core/packages/dobot_controller)
+[1.805s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_bringup' for CMake module files
+[1.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_bringup' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_bringup build --build-base /home/ruslan/ros2_ws/build/dobot_bringup/build install --record /home/ruslan/ros2_ws/build/dobot_bringup/install.log --single-version-externally-managed install_data
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_bringup' for CMake config files
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_bringup/lib'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_bringup/bin'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_bringup/lib/pkgconfig/dobot_bringup.pc'
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_bringup/lib/python3.10/site-packages'
+[1.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup', 'pythonpath')
+[1.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup/hook/pythonpath.ps1'
+[1.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup/hook/pythonpath.dsv'
+[1.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup/hook/pythonpath.sh'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_bringup/bin'
+[1.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_bringup)
+[1.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup/package.ps1'
+[1.810s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup/package.dsv'
+[1.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup/package.sh'
+[1.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup/package.bash'
+[1.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup/package.zsh'
+[1.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_bringup/share/colcon-core/packages/dobot_bringup)
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_control_panel' for CMake module files
+[1.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_control_panel' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_control_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_control_panel build --build-base /home/ruslan/ros2_ws/build/dobot_control_panel/build install --record /home/ruslan/ros2_ws/build/dobot_control_panel/install.log --single-version-externally-managed install_data
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_control_panel' for CMake config files
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_control_panel/lib'
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_control_panel/bin'
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_control_panel/lib/pkgconfig/dobot_control_panel.pc'
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_control_panel/lib/python3.10/site-packages'
+[1.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_control_panel', 'pythonpath')
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/hook/pythonpath.ps1'
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/hook/pythonpath.dsv'
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/hook/pythonpath.sh'
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_control_panel/bin'
+[1.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_control_panel)
+[1.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/package.ps1'
+[1.820s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/package.dsv'
+[1.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/package.sh'
+[1.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/package.bash'
+[1.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_control_panel/share/dobot_control_panel/package.zsh'
+[1.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_control_panel/share/colcon-core/packages/dobot_control_panel)
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_visualization_tools' for CMake module files
+[1.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_visualization_tools' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_visualization_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_visualization_tools build --build-base /home/ruslan/ros2_ws/build/dobot_visualization_tools/build install --record /home/ruslan/ros2_ws/build/dobot_visualization_tools/install.log --single-version-externally-managed install_data
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_visualization_tools' for CMake config files
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_visualization_tools/lib'
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_visualization_tools/bin'
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/pkgconfig/dobot_visualization_tools.pc'
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages'
+[1.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_visualization_tools', 'pythonpath')
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/pythonpath.ps1'
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/pythonpath.dsv'
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/pythonpath.sh'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_visualization_tools/bin'
+[1.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_visualization_tools)
+[1.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/package.ps1'
+[1.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/package.dsv'
+[1.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/package.sh'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/package.bash'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/package.zsh'
+[1.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_visualization_tools/share/colcon-core/packages/dobot_visualization_tools)
+[5.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ruslan/ros2_ws/build/dobot_msgs -- -j16 -l16
+[5.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/build/dobot_msgs': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ruslan/ros2_ws/build/dobot_msgs
+[5.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_msgs)
+[5.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ruslan/ros2_ws/build/dobot_msgs
+[5.831s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs' for CMake module files
+[5.832s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs' for CMake config files
+[5.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_msgs', 'cmake_prefix_path')
+[5.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.ps1'
+[5.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.dsv'
+[5.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.sh'
+[5.833s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs/lib'
+[5.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_msgs', 'ld_library_path_lib')
+[5.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.ps1'
+[5.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.dsv'
+[5.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.sh'
+[5.834s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs/bin'
+[5.834s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs/lib/pkgconfig/dobot_msgs.pc'
+[5.834s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs/lib/python3.10/site-packages'
+[5.834s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs/bin'
+[5.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/package.ps1'
+[5.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/package.dsv'
+[5.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/package.sh'
+[5.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/package.bash'
+[5.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/package.zsh'
+[5.835s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_msgs/share/colcon-core/packages/dobot_msgs)
+[5.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_msgs)
+[5.836s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs' for CMake module files
+[5.836s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs' for CMake config files
+[5.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_msgs', 'cmake_prefix_path')
+[5.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.ps1'
+[5.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.dsv'
+[5.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.sh'
+[5.837s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs/lib'
+[5.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_msgs', 'ld_library_path_lib')
+[5.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.ps1'
+[5.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.dsv'
+[5.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.sh'
+[5.838s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs/bin'
+[5.838s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs/lib/pkgconfig/dobot_msgs.pc'
+[5.838s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs/lib/python3.10/site-packages'
+[5.838s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_msgs/bin'
+[5.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/package.ps1'
+[5.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/package.dsv'
+[5.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/package.sh'
+[5.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/package.bash'
+[5.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_msgs/share/dobot_msgs/package.zsh'
+[5.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_msgs/share/colcon-core/packages/dobot_msgs)
+[5.839s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_demos' with build type 'ament_python'
+[5.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_demos', 'ament_prefix_path')
+[5.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_demos/share/dobot_demos/hook/ament_prefix_path.ps1'
+[5.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_demos/share/dobot_demos/hook/ament_prefix_path.dsv'
+[5.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_demos/share/dobot_demos/hook/ament_prefix_path.sh'
+[5.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.842s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_diagnostics' with build type 'ament_python'
+[5.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_diagnostics', 'ament_prefix_path')
+[5.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_diagnostics/share/dobot_diagnostics/hook/ament_prefix_path.ps1'
+[5.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_diagnostics/share/dobot_diagnostics/hook/ament_prefix_path.dsv'
+[5.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_diagnostics/share/dobot_diagnostics/hook/ament_prefix_path.sh'
+[5.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.846s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_end_effector' with build type 'ament_python'
+[5.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_end_effector', 'ament_prefix_path')
+[5.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_end_effector/share/dobot_end_effector/hook/ament_prefix_path.ps1'
+[5.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_end_effector/share/dobot_end_effector/hook/ament_prefix_path.dsv'
+[5.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_end_effector/share/dobot_end_effector/hook/ament_prefix_path.sh'
+[5.847s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.847s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.849s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_homing' with build type 'ament_python'
+[5.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_homing', 'ament_prefix_path')
+[5.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/hook/ament_prefix_path.ps1'
+[5.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/hook/ament_prefix_path.dsv'
+[5.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/hook/ament_prefix_path.sh'
+[5.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.852s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_kinematics' with build type 'ament_python'
+[5.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_kinematics', 'ament_prefix_path')
+[5.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_kinematics/share/dobot_kinematics/hook/ament_prefix_path.ps1'
+[5.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_kinematics/share/dobot_kinematics/hook/ament_prefix_path.dsv'
+[5.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_kinematics/share/dobot_kinematics/hook/ament_prefix_path.sh'
+[5.853s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.853s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.855s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_motion' with build type 'ament_python'
+[5.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_motion', 'ament_prefix_path')
+[5.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_motion/share/dobot_motion/hook/ament_prefix_path.ps1'
+[5.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_motion/share/dobot_motion/hook/ament_prefix_path.dsv'
+[5.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_motion/share/dobot_motion/hook/ament_prefix_path.sh'
+[5.858s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.860s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_state_updater' with build type 'ament_python'
+[5.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_state_updater', 'ament_prefix_path')
+[5.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_state_updater/share/dobot_state_updater/hook/ament_prefix_path.ps1'
+[5.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_state_updater/share/dobot_state_updater/hook/ament_prefix_path.dsv'
+[5.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_state_updater/share/dobot_state_updater/hook/ament_prefix_path.sh'
+[5.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.024s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_demos'
+[6.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.181s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_diagnostics'
+[6.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.334s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_end_effector'
+[6.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.486s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_homing'
+[6.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.640s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_kinematics'
+[6.640s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.640s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.796s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_motion'
+[6.796s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.796s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.951s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_state_updater'
+[6.951s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.951s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_kinematics': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_kinematics/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_kinematics build --build-base /home/ruslan/ros2_ws/build/dobot_kinematics/build install --record /home/ruslan/ros2_ws/build/dobot_kinematics/install.log --single-version-externally-managed install_data
+[7.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_end_effector': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_end_effector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_end_effector/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_end_effector build --build-base /home/ruslan/ros2_ws/build/dobot_end_effector/build install --record /home/ruslan/ros2_ws/build/dobot_end_effector/install.log --single-version-externally-managed install_data
+[7.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_motion': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_motion/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_motion build --build-base /home/ruslan/ros2_ws/build/dobot_motion/build install --record /home/ruslan/ros2_ws/build/dobot_motion/install.log --single-version-externally-managed install_data
+[7.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_state_updater': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_state_updater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_state_updater/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_state_updater build --build-base /home/ruslan/ros2_ws/build/dobot_state_updater/build install --record /home/ruslan/ros2_ws/build/dobot_state_updater/install.log --single-version-externally-managed install_data
+[7.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_homing': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_homing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_homing/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_homing build --build-base /home/ruslan/ros2_ws/build/dobot_homing/build install --record /home/ruslan/ros2_ws/build/dobot_homing/install.log --single-version-externally-managed install_data
+[7.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_demos': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_demos/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_demos build --build-base /home/ruslan/ros2_ws/build/dobot_demos/build install --record /home/ruslan/ros2_ws/build/dobot_demos/install.log --single-version-externally-managed install_data
+[7.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_diagnostics': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_diagnostics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_diagnostics/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_diagnostics build --build-base /home/ruslan/ros2_ws/build/dobot_diagnostics/build install --record /home/ruslan/ros2_ws/build/dobot_diagnostics/install.log --single-version-externally-managed install_data
+[7.376s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_end_effector' for CMake module files
+[7.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_end_effector' returned '0': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_end_effector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_end_effector/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_end_effector build --build-base /home/ruslan/ros2_ws/build/dobot_end_effector/build install --record /home/ruslan/ros2_ws/build/dobot_end_effector/install.log --single-version-externally-managed install_data
+[7.377s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_end_effector' for CMake config files
+[7.377s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_end_effector/lib'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_end_effector/bin'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_end_effector/lib/pkgconfig/dobot_end_effector.pc'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_end_effector/lib/python3.10/site-packages'
+[7.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_end_effector', 'pythonpath')
+[7.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_end_effector/share/dobot_end_effector/hook/pythonpath.ps1'
+[7.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_end_effector/share/dobot_end_effector/hook/pythonpath.dsv'
+[7.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_end_effector/share/dobot_end_effector/hook/pythonpath.sh'
+[7.380s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_end_effector/bin'
+[7.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_end_effector)
+[7.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_end_effector/share/dobot_end_effector/package.ps1'
+[7.380s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_end_effector/share/dobot_end_effector/package.dsv'
+[7.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_end_effector/share/dobot_end_effector/package.sh'
+[7.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_end_effector/share/dobot_end_effector/package.bash'
+[7.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_end_effector/share/dobot_end_effector/package.zsh'
+[7.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_end_effector/share/colcon-core/packages/dobot_end_effector)
+[7.411s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_state_updater' for CMake module files
+[7.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_state_updater' returned '0': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_state_updater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_state_updater/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_state_updater build --build-base /home/ruslan/ros2_ws/build/dobot_state_updater/build install --record /home/ruslan/ros2_ws/build/dobot_state_updater/install.log --single-version-externally-managed install_data
+[7.414s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_state_updater' for CMake config files
+[7.414s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_state_updater/lib'
+[7.414s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_state_updater/bin'
+[7.414s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_state_updater/lib/pkgconfig/dobot_state_updater.pc'
+[7.415s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_state_updater/lib/python3.10/site-packages'
+[7.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_state_updater', 'pythonpath')
+[7.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_state_updater/share/dobot_state_updater/hook/pythonpath.ps1'
+[7.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_state_updater/share/dobot_state_updater/hook/pythonpath.dsv'
+[7.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_state_updater/share/dobot_state_updater/hook/pythonpath.sh'
+[7.417s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_state_updater/bin'
+[7.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_state_updater)
+[7.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_state_updater/share/dobot_state_updater/package.ps1'
+[7.418s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_state_updater/share/dobot_state_updater/package.dsv'
+[7.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_state_updater/share/dobot_state_updater/package.sh'
+[7.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_state_updater/share/dobot_state_updater/package.bash'
+[7.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_state_updater/share/dobot_state_updater/package.zsh'
+[7.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_state_updater/share/colcon-core/packages/dobot_state_updater)
+[7.446s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_homing' for CMake module files
+[7.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_homing' returned '0': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_homing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_homing/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_homing build --build-base /home/ruslan/ros2_ws/build/dobot_homing/build install --record /home/ruslan/ros2_ws/build/dobot_homing/install.log --single-version-externally-managed install_data
+[7.447s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_homing' for CMake config files
+[7.448s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_homing/lib'
+[7.448s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_homing/bin'
+[7.448s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_homing/lib/pkgconfig/dobot_homing.pc'
+[7.448s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_homing/lib/python3.10/site-packages'
+[7.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_homing', 'pythonpath')
+[7.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/hook/pythonpath.ps1'
+[7.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/hook/pythonpath.dsv'
+[7.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/hook/pythonpath.sh'
+[7.449s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_homing/bin'
+[7.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_homing)
+[7.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/package.ps1'
+[7.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/package.dsv'
+[7.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/package.sh'
+[7.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/package.bash'
+[7.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_homing/share/dobot_homing/package.zsh'
+[7.450s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_homing/share/colcon-core/packages/dobot_homing)
+[7.456s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_demos' for CMake module files
+[7.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_demos' returned '0': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_demos/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_demos build --build-base /home/ruslan/ros2_ws/build/dobot_demos/build install --record /home/ruslan/ros2_ws/build/dobot_demos/install.log --single-version-externally-managed install_data
+[7.456s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_demos' for CMake config files
+[7.457s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_demos/lib'
+[7.457s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_demos/bin'
+[7.457s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_demos/lib/pkgconfig/dobot_demos.pc'
+[7.458s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_demos/lib/python3.10/site-packages'
+[7.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_demos', 'pythonpath')
+[7.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_demos/share/dobot_demos/hook/pythonpath.ps1'
+[7.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_demos/share/dobot_demos/hook/pythonpath.dsv'
+[7.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_demos/share/dobot_demos/hook/pythonpath.sh'
+[7.459s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_demos/bin'
+[7.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_demos)
+[7.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_demos/share/dobot_demos/package.ps1'
+[7.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_demos/share/dobot_demos/package.dsv'
+[7.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_demos/share/dobot_demos/package.sh'
+[7.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_demos/share/dobot_demos/package.bash'
+[7.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_demos/share/dobot_demos/package.zsh'
+[7.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_demos/share/colcon-core/packages/dobot_demos)
+[7.497s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_kinematics' for CMake module files
+[7.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_kinematics' returned '0': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_kinematics/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_kinematics build --build-base /home/ruslan/ros2_ws/build/dobot_kinematics/build install --record /home/ruslan/ros2_ws/build/dobot_kinematics/install.log --single-version-externally-managed install_data
+[7.497s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_kinematics' for CMake config files
+[7.498s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_kinematics/lib'
+[7.498s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_kinematics/bin'
+[7.498s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_kinematics/lib/pkgconfig/dobot_kinematics.pc'
+[7.498s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_kinematics/lib/python3.10/site-packages'
+[7.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_kinematics', 'pythonpath')
+[7.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_kinematics/share/dobot_kinematics/hook/pythonpath.ps1'
+[7.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_kinematics/share/dobot_kinematics/hook/pythonpath.dsv'
+[7.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_kinematics/share/dobot_kinematics/hook/pythonpath.sh'
+[7.499s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_kinematics/bin'
+[7.499s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_kinematics)
+[7.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_kinematics/share/dobot_kinematics/package.ps1'
+[7.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_kinematics/share/dobot_kinematics/package.dsv'
+[7.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_kinematics/share/dobot_kinematics/package.sh'
+[7.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_kinematics/share/dobot_kinematics/package.bash'
+[7.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_kinematics/share/dobot_kinematics/package.zsh'
+[7.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_kinematics/share/colcon-core/packages/dobot_kinematics)
+[7.510s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_motion' for CMake module files
+[7.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_motion' returned '0': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_motion/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_motion build --build-base /home/ruslan/ros2_ws/build/dobot_motion/build install --record /home/ruslan/ros2_ws/build/dobot_motion/install.log --single-version-externally-managed install_data
+[7.510s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_motion' for CMake config files
+[7.511s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_motion/lib'
+[7.511s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_motion/bin'
+[7.511s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_motion/lib/pkgconfig/dobot_motion.pc'
+[7.511s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_motion/lib/python3.10/site-packages'
+[7.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_motion', 'pythonpath')
+[7.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_motion/share/dobot_motion/hook/pythonpath.ps1'
+[7.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_motion/share/dobot_motion/hook/pythonpath.dsv'
+[7.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_motion/share/dobot_motion/hook/pythonpath.sh'
+[7.513s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_motion/bin'
+[7.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_motion)
+[7.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_motion/share/dobot_motion/package.ps1'
+[7.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_motion/share/dobot_motion/package.dsv'
+[7.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_motion/share/dobot_motion/package.sh'
+[7.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_motion/share/dobot_motion/package.bash'
+[7.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_motion/share/dobot_motion/package.zsh'
+[7.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_motion/share/colcon-core/packages/dobot_motion)
+[7.522s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_diagnostics' for CMake module files
+[7.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_diagnostics' returned '0': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_diagnostics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_diagnostics/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_diagnostics build --build-base /home/ruslan/ros2_ws/build/dobot_diagnostics/build install --record /home/ruslan/ros2_ws/build/dobot_diagnostics/install.log --single-version-externally-managed install_data
+[7.522s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_diagnostics' for CMake config files
+[7.523s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_diagnostics/lib'
+[7.523s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_diagnostics/bin'
+[7.523s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_diagnostics/lib/pkgconfig/dobot_diagnostics.pc'
+[7.523s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_diagnostics/lib/python3.10/site-packages'
+[7.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_diagnostics', 'pythonpath')
+[7.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_diagnostics/share/dobot_diagnostics/hook/pythonpath.ps1'
+[7.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruslan/ros2_ws/install/dobot_diagnostics/share/dobot_diagnostics/hook/pythonpath.dsv'
+[7.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruslan/ros2_ws/install/dobot_diagnostics/share/dobot_diagnostics/hook/pythonpath.sh'
+[7.524s] Level 1:colcon.colcon_core.environment:checking '/home/ruslan/ros2_ws/install/dobot_diagnostics/bin'
+[7.524s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_diagnostics)
+[7.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_diagnostics/share/dobot_diagnostics/package.ps1'
+[7.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruslan/ros2_ws/install/dobot_diagnostics/share/dobot_diagnostics/package.dsv'
+[7.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_diagnostics/share/dobot_diagnostics/package.sh'
+[7.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_diagnostics/share/dobot_diagnostics/package.bash'
+[7.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruslan/ros2_ws/install/dobot_diagnostics/share/dobot_diagnostics/package.zsh'
+[7.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruslan/ros2_ws/install/dobot_diagnostics/share/colcon-core/packages/dobot_diagnostics)
+[7.525s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.525s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.525s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.526s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.529s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.529s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.529s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.537s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ruslan/ros2_ws/install/local_setup.ps1'
+[7.538s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ruslan/ros2_ws/install/_local_setup_util_ps1.py'
+[7.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ruslan/ros2_ws/install/setup.ps1'
+[7.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ruslan/ros2_ws/install/local_setup.sh'
+[7.540s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ruslan/ros2_ws/install/_local_setup_util_sh.py'
+[7.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ruslan/ros2_ws/install/setup.sh'
+[7.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ruslan/ros2_ws/install/local_setup.bash'
+[7.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ruslan/ros2_ws/install/setup.bash'
+[7.541s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ruslan/ros2_ws/install/local_setup.zsh'
+[7.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ruslan/ros2_ws/install/setup.zsh'

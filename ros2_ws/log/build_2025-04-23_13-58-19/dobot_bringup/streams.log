@@ -1,0 +1,38 @@
+[1.312s] Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_bringup': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_bringup build --build-base /home/ruslan/ros2_ws/build/dobot_bringup/build install --record /home/ruslan/ros2_ws/build/dobot_bringup/install.log --single-version-externally-managed install_data
+[1.522s] running egg_info
+[1.522s] creating ../../../build/dobot_bringup/dobot_bringup.egg-info
+[1.522s] writing ../../../build/dobot_bringup/dobot_bringup.egg-info/PKG-INFO
+[1.522s] writing dependency_links to ../../../build/dobot_bringup/dobot_bringup.egg-info/dependency_links.txt
+[1.522s] writing entry points to ../../../build/dobot_bringup/dobot_bringup.egg-info/entry_points.txt
+[1.523s] writing requirements to ../../../build/dobot_bringup/dobot_bringup.egg-info/requires.txt
+[1.523s] writing top-level names to ../../../build/dobot_bringup/dobot_bringup.egg-info/top_level.txt
+[1.523s] writing manifest file '../../../build/dobot_bringup/dobot_bringup.egg-info/SOURCES.txt'
+[1.524s] reading manifest file '../../../build/dobot_bringup/dobot_bringup.egg-info/SOURCES.txt'
+[1.524s] writing manifest file '../../../build/dobot_bringup/dobot_bringup.egg-info/SOURCES.txt'
+[1.524s] running build
+[1.524s] running build_py
+[1.524s] creating /home/ruslan/ros2_ws/build/dobot_bringup/build
+[1.524s] creating /home/ruslan/ros2_ws/build/dobot_bringup/build/lib
+[1.524s] creating /home/ruslan/ros2_ws/build/dobot_bringup/build/lib/dobot_bringup
+[1.525s] copying dobot_bringup/__init__.py -> /home/ruslan/ros2_ws/build/dobot_bringup/build/lib/dobot_bringup
+[1.525s] copying dobot_bringup/set_tool_null.py -> /home/ruslan/ros2_ws/build/dobot_bringup/build/lib/dobot_bringup
+[1.525s] running install
+[1.525s] running install_lib
+[1.525s] creating /home/ruslan/ros2_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup
+[1.525s] copying /home/ruslan/ros2_ws/build/dobot_bringup/build/lib/dobot_bringup/__init__.py -> /home/ruslan/ros2_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup
+[1.525s] copying /home/ruslan/ros2_ws/build/dobot_bringup/build/lib/dobot_bringup/set_tool_null.py -> /home/ruslan/ros2_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup
+[1.525s] byte-compiling /home/ruslan/ros2_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup/__init__.py to __init__.cpython-310.pyc
+[1.525s] byte-compiling /home/ruslan/ros2_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup/set_tool_null.py to set_tool_null.cpython-310.pyc
+[1.526s] running install_data
+[1.526s] creating /home/ruslan/ros2_ws/install/dobot_bringup/share/ament_index
+[1.526s] creating /home/ruslan/ros2_ws/install/dobot_bringup/share/ament_index/resource_index
+[1.526s] creating /home/ruslan/ros2_ws/install/dobot_bringup/share/ament_index/resource_index/packages
+[1.526s] copying resource/dobot_bringup -> /home/ruslan/ros2_ws/install/dobot_bringup/share/ament_index/resource_index/packages
+[1.526s] copying package.xml -> /home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup
+[1.526s] copying launch/dobot_magician_control_system.launch.py -> /home/ruslan/ros2_ws/install/dobot_bringup/share/dobot_bringup
+[1.526s] running install_egg_info
+[1.527s] Copying ../../../build/dobot_bringup/dobot_bringup.egg-info to /home/ruslan/ros2_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup-1.0.0-py3.10.egg-info
+[1.527s] running install_scripts
+[1.540s] Installing set_tool_null script to /home/ruslan/ros2_ws/install/dobot_bringup/lib/dobot_bringup
+[1.540s] writing list of installed files to '/home/ruslan/ros2_ws/build/dobot_bringup/install.log'
+[1.563s] Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_bringup' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_bringup build --build-base /home/ruslan/ros2_ws/build/dobot_bringup/build install --record /home/ruslan/ros2_ws/build/dobot_bringup/install.log --single-version-externally-managed install_data

@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/webcam_publisher/webcam_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/webcam_publisher/webcam_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/webcam_publisher/webcam_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/webcam_publisher/webcam_publisher.egg-info/requires.txt
+writing top-level names to ../../build/webcam_publisher/webcam_publisher.egg-info/top_level.txt
+reading manifest file '../../build/webcam_publisher/webcam_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/webcam_publisher/webcam_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ruslan/ros2_ws/install/webcam_publisher/lib/python3.10/site-packages/webcam_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/webcam_publisher/webcam_publisher.egg-info to /home/ruslan/ros2_ws/install/webcam_publisher/lib/python3.10/site-packages/webcam_publisher-0.0.0-py3.10.egg-info
+running install_scripts
+Installing webcam_publisher script to /home/ruslan/ros2_ws/install/webcam_publisher/lib/webcam_publisher
+writing list of installed files to '/home/ruslan/ros2_ws/build/webcam_publisher/install.log'

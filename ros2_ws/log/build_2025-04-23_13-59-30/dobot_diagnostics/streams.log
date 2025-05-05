@@ -1,0 +1,21 @@
+[1.516s] Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_diagnostics': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_diagnostics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_diagnostics/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_diagnostics build --build-base /home/ruslan/ros2_ws/build/dobot_diagnostics/build install --record /home/ruslan/ros2_ws/build/dobot_diagnostics/install.log --single-version-externally-managed install_data
+[1.672s] running egg_info
+[1.672s] writing ../../../build/dobot_diagnostics/dobot_diagnostics.egg-info/PKG-INFO
+[1.673s] writing dependency_links to ../../../build/dobot_diagnostics/dobot_diagnostics.egg-info/dependency_links.txt
+[1.673s] writing entry points to ../../../build/dobot_diagnostics/dobot_diagnostics.egg-info/entry_points.txt
+[1.673s] writing requirements to ../../../build/dobot_diagnostics/dobot_diagnostics.egg-info/requires.txt
+[1.673s] writing top-level names to ../../../build/dobot_diagnostics/dobot_diagnostics.egg-info/top_level.txt
+[1.674s] reading manifest file '../../../build/dobot_diagnostics/dobot_diagnostics.egg-info/SOURCES.txt'
+[1.675s] writing manifest file '../../../build/dobot_diagnostics/dobot_diagnostics.egg-info/SOURCES.txt'
+[1.675s] running build
+[1.675s] running build_py
+[1.675s] running install
+[1.675s] running install_lib
+[1.675s] running install_data
+[1.675s] running install_egg_info
+[1.677s] removing '/home/ruslan/ros2_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics-1.0.0-py3.10.egg-info' (and everything under it)
+[1.677s] Copying ../../../build/dobot_diagnostics/dobot_diagnostics.egg-info to /home/ruslan/ros2_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics-1.0.0-py3.10.egg-info
+[1.677s] running install_scripts
+[1.689s] Installing alarms_parser script to /home/ruslan/ros2_ws/install/dobot_diagnostics/lib/dobot_diagnostics
+[1.689s] writing list of installed files to '/home/ruslan/ros2_ws/build/dobot_diagnostics/install.log'
+[1.708s] Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_diagnostics' returned '0': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_diagnostics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_diagnostics/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_diagnostics build --build-base /home/ruslan/ros2_ws/build/dobot_diagnostics/build install --record /home/ruslan/ros2_ws/build/dobot_diagnostics/install.log --single-version-externally-managed install_data

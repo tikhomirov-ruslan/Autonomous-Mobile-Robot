@@ -1,0 +1,52 @@
+[1.354s] Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_visualization_tools': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_visualization_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_visualization_tools build --build-base /home/ruslan/ros2_ws/build/dobot_visualization_tools/build install --record /home/ruslan/ros2_ws/build/dobot_visualization_tools/install.log --single-version-externally-managed install_data
+[1.572s] running egg_info
+[1.573s] creating ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info
+[1.573s] writing ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/PKG-INFO
+[1.573s] writing dependency_links to ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/dependency_links.txt
+[1.573s] writing entry points to ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/entry_points.txt
+[1.573s] writing requirements to ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/requires.txt
+[1.573s] writing top-level names to ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/top_level.txt
+[1.573s] writing manifest file '../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/SOURCES.txt'
+[1.574s] reading manifest file '../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/SOURCES.txt'
+[1.574s] writing manifest file '../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/SOURCES.txt'
+[1.574s] running build
+[1.574s] running build_py
+[1.575s] creating /home/ruslan/ros2_ws/build/dobot_visualization_tools/build
+[1.575s] creating /home/ruslan/ros2_ws/build/dobot_visualization_tools/build/lib
+[1.575s] creating /home/ruslan/ros2_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools
+[1.575s] copying dobot_visualization_tools/__init__.py -> /home/ruslan/ros2_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools
+[1.575s] copying dobot_visualization_tools/trajectory_markers.py -> /home/ruslan/ros2_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools
+[1.575s] copying dobot_visualization_tools/camera_range.py -> /home/ruslan/ros2_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools
+[1.575s] copying dobot_visualization_tools/dobot_range.py -> /home/ruslan/ros2_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools
+[1.575s] copying dobot_visualization_tools/int_marker.py -> /home/ruslan/ros2_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools
+[1.575s] running install
+[1.575s] running install_lib
+[1.575s] creating /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools
+[1.575s] copying /home/ruslan/ros2_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools/__init__.py -> /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools
+[1.575s] copying /home/ruslan/ros2_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools/trajectory_markers.py -> /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools
+[1.575s] copying /home/ruslan/ros2_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools/camera_range.py -> /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools
+[1.576s] copying /home/ruslan/ros2_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools/dobot_range.py -> /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools
+[1.576s] copying /home/ruslan/ros2_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools/int_marker.py -> /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools
+[1.576s] byte-compiling /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools/__init__.py to __init__.cpython-310.pyc
+[1.576s] byte-compiling /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools/trajectory_markers.py to trajectory_markers.cpython-310.pyc
+[1.576s] byte-compiling /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools/camera_range.py to camera_range.cpython-310.pyc
+[1.577s] byte-compiling /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools/dobot_range.py to dobot_range.cpython-310.pyc
+[1.577s] byte-compiling /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools/int_marker.py to int_marker.cpython-310.pyc
+[1.578s] running install_data
+[1.578s] creating /home/ruslan/ros2_ws/install/dobot_visualization_tools/share/ament_index
+[1.578s] creating /home/ruslan/ros2_ws/install/dobot_visualization_tools/share/ament_index/resource_index
+[1.579s] creating /home/ruslan/ros2_ws/install/dobot_visualization_tools/share/ament_index/resource_index/packages
+[1.579s] copying resource/dobot_visualization_tools -> /home/ruslan/ros2_ws/install/dobot_visualization_tools/share/ament_index/resource_index/packages
+[1.579s] copying package.xml -> /home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools
+[1.579s] creating /home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/dae_models
+[1.579s] copying dae_models/realsense_FOV.dae -> /home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/dae_models
+[1.579s] copying dae_models/dobot_range.dae -> /home/ruslan/ros2_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/dae_models
+[1.579s] running install_egg_info
+[1.580s] Copying ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info to /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools-1.0.0-py3.10.egg-info
+[1.580s] running install_scripts
+[1.593s] Installing int_marker script to /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/dobot_visualization_tools
+[1.593s] Installing show_camera_FOV script to /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/dobot_visualization_tools
+[1.593s] Installing show_dobot_range script to /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/dobot_visualization_tools
+[1.593s] Installing show_trajectory script to /home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/dobot_visualization_tools
+[1.593s] writing list of installed files to '/home/ruslan/ros2_ws/build/dobot_visualization_tools/install.log'
+[1.609s] Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_visualization_tools' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_visualization_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_visualization_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_visualization_tools build --build-base /home/ruslan/ros2_ws/build/dobot_visualization_tools/build install --record /home/ruslan/ros2_ws/build/dobot_visualization_tools/install.log --single-version-externally-managed install_data

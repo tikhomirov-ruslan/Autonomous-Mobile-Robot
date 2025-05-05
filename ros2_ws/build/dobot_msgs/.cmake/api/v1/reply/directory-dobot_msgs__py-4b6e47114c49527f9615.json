@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dobot_msgs__py",
+		"source" : "/home/ruslan/ros2_ws/build/dobot_msgs/dobot_msgs__py"
+	}
+}

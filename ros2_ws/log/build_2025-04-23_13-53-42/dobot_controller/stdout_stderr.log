@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/dobot_controller/dobot_controller.egg-info
+writing ../../build/dobot_controller/dobot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_controller/dobot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_controller/dobot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_controller/dobot_controller.egg-info/requires.txt
+writing top-level names to ../../build/dobot_controller/dobot_controller.egg-info/top_level.txt
+writing manifest file '../../build/dobot_controller/dobot_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/dobot_controller/dobot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/dobot_controller/dobot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ruslan/ros2_ws/build/dobot_controller/build
+creating /home/ruslan/ros2_ws/build/dobot_controller/build/lib
+creating /home/ruslan/ros2_ws/build/dobot_controller/build/lib/dobot_controller
+copying dobot_controller/__init__.py -> /home/ruslan/ros2_ws/build/dobot_controller/build/lib/dobot_controller
+copying dobot_controller/dobot_controller_node.py -> /home/ruslan/ros2_ws/build/dobot_controller/build/lib/dobot_controller
+running install
+running install_lib
+creating /home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages/dobot_controller
+copying /home/ruslan/ros2_ws/build/dobot_controller/build/lib/dobot_controller/__init__.py -> /home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages/dobot_controller
+copying /home/ruslan/ros2_ws/build/dobot_controller/build/lib/dobot_controller/dobot_controller_node.py -> /home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages/dobot_controller
+byte-compiling /home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages/dobot_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages/dobot_controller/dobot_controller_node.py to dobot_controller_node.cpython-310.pyc
+running install_data
+creating /home/ruslan/ros2_ws/install/dobot_controller/share/ament_index
+creating /home/ruslan/ros2_ws/install/dobot_controller/share/ament_index/resource_index
+creating /home/ruslan/ros2_ws/install/dobot_controller/share/ament_index/resource_index/packages
+copying resource/dobot_controller -> /home/ruslan/ros2_ws/install/dobot_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/ruslan/ros2_ws/install/dobot_controller/share/dobot_controller
+running install_egg_info
+Copying ../../build/dobot_controller/dobot_controller.egg-info to /home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages/dobot_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dobot_controller_node script to /home/ruslan/ros2_ws/install/dobot_controller/lib/dobot_controller
+Installing hand_tracker_node script to /home/ruslan/ros2_ws/install/dobot_controller/lib/dobot_controller
+writing list of installed files to '/home/ruslan/ros2_ws/build/dobot_controller/install.log'

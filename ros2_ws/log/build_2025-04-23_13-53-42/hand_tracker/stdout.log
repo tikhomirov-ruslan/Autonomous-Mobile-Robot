@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/hand_tracker/hand_tracker.egg-info
+writing ../../build/hand_tracker/hand_tracker.egg-info/PKG-INFO
+writing dependency_links to ../../build/hand_tracker/hand_tracker.egg-info/dependency_links.txt
+writing entry points to ../../build/hand_tracker/hand_tracker.egg-info/entry_points.txt
+writing requirements to ../../build/hand_tracker/hand_tracker.egg-info/requires.txt
+writing top-level names to ../../build/hand_tracker/hand_tracker.egg-info/top_level.txt
+writing manifest file '../../build/hand_tracker/hand_tracker.egg-info/SOURCES.txt'
+reading manifest file '../../build/hand_tracker/hand_tracker.egg-info/SOURCES.txt'
+writing manifest file '../../build/hand_tracker/hand_tracker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ruslan/ros2_ws/build/hand_tracker/build
+creating /home/ruslan/ros2_ws/build/hand_tracker/build/lib
+creating /home/ruslan/ros2_ws/build/hand_tracker/build/lib/hand_tracker
+copying hand_tracker/hand_tracker.py -> /home/ruslan/ros2_ws/build/hand_tracker/build/lib/hand_tracker
+copying hand_tracker/__init__.py -> /home/ruslan/ros2_ws/build/hand_tracker/build/lib/hand_tracker
+running install
+running install_lib
+creating /home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages/hand_tracker
+copying /home/ruslan/ros2_ws/build/hand_tracker/build/lib/hand_tracker/hand_tracker.py -> /home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages/hand_tracker
+copying /home/ruslan/ros2_ws/build/hand_tracker/build/lib/hand_tracker/__init__.py -> /home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages/hand_tracker
+byte-compiling /home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages/hand_tracker/hand_tracker.py to hand_tracker.cpython-310.pyc
+byte-compiling /home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages/hand_tracker/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ruslan/ros2_ws/install/hand_tracker/share/ament_index
+creating /home/ruslan/ros2_ws/install/hand_tracker/share/ament_index/resource_index
+creating /home/ruslan/ros2_ws/install/hand_tracker/share/ament_index/resource_index/packages
+copying resource/hand_tracker -> /home/ruslan/ros2_ws/install/hand_tracker/share/ament_index/resource_index/packages
+copying package.xml -> /home/ruslan/ros2_ws/install/hand_tracker/share/hand_tracker
+running install_egg_info
+Copying ../../build/hand_tracker/hand_tracker.egg-info to /home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages/hand_tracker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dobot_controller_node script to /home/ruslan/ros2_ws/install/hand_tracker/lib/hand_tracker
+Installing hand_tracker_node script to /home/ruslan/ros2_ws/install/hand_tracker/lib/hand_tracker
+writing list of installed files to '/home/ruslan/ros2_ws/build/hand_tracker/install.log'

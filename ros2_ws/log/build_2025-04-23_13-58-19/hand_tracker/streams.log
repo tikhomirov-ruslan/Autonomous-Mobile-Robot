@@ -1,0 +1,22 @@
+[1.210s] Invoking command in '/home/ruslan/ros2_ws/src/hand_tracker': PYTHONPATH=/home/ruslan/ros2_ws/build/hand_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hand_tracker build --build-base /home/ruslan/ros2_ws/build/hand_tracker/build install --record /home/ruslan/ros2_ws/build/hand_tracker/install.log --single-version-externally-managed install_data
+[1.375s] running egg_info
+[1.375s] writing ../../build/hand_tracker/hand_tracker.egg-info/PKG-INFO
+[1.375s] writing dependency_links to ../../build/hand_tracker/hand_tracker.egg-info/dependency_links.txt
+[1.376s] writing entry points to ../../build/hand_tracker/hand_tracker.egg-info/entry_points.txt
+[1.376s] writing requirements to ../../build/hand_tracker/hand_tracker.egg-info/requires.txt
+[1.376s] writing top-level names to ../../build/hand_tracker/hand_tracker.egg-info/top_level.txt
+[1.377s] reading manifest file '../../build/hand_tracker/hand_tracker.egg-info/SOURCES.txt'
+[1.377s] writing manifest file '../../build/hand_tracker/hand_tracker.egg-info/SOURCES.txt'
+[1.378s] running build
+[1.378s] running build_py
+[1.378s] running install
+[1.378s] running install_lib
+[1.379s] running install_data
+[1.379s] running install_egg_info
+[1.380s] removing '/home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages/hand_tracker-0.0.0-py3.10.egg-info' (and everything under it)
+[1.380s] Copying ../../build/hand_tracker/hand_tracker.egg-info to /home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages/hand_tracker-0.0.0-py3.10.egg-info
+[1.380s] running install_scripts
+[1.394s] Installing dobot_controller_node script to /home/ruslan/ros2_ws/install/hand_tracker/lib/hand_tracker
+[1.394s] Installing hand_tracker_node script to /home/ruslan/ros2_ws/install/hand_tracker/lib/hand_tracker
+[1.394s] writing list of installed files to '/home/ruslan/ros2_ws/build/hand_tracker/install.log'
+[1.428s] Invoked command in '/home/ruslan/ros2_ws/src/hand_tracker' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/hand_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hand_tracker build --build-base /home/ruslan/ros2_ws/build/hand_tracker/build install --record /home/ruslan/ros2_ws/build/hand_tracker/install.log --single-version-externally-managed install_data

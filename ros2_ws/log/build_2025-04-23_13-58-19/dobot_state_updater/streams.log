@@ -1,0 +1,37 @@
+[1.320s] Invoking command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_state_updater': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_state_updater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_state_updater/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_state_updater build --build-base /home/ruslan/ros2_ws/build/dobot_state_updater/build install --record /home/ruslan/ros2_ws/build/dobot_state_updater/install.log --single-version-externally-managed install_data
+[1.502s] running egg_info
+[1.503s] creating ../../../build/dobot_state_updater/dobot_state_updater.egg-info
+[1.503s] writing ../../../build/dobot_state_updater/dobot_state_updater.egg-info/PKG-INFO
+[1.503s] writing dependency_links to ../../../build/dobot_state_updater/dobot_state_updater.egg-info/dependency_links.txt
+[1.503s] writing entry points to ../../../build/dobot_state_updater/dobot_state_updater.egg-info/entry_points.txt
+[1.503s] writing requirements to ../../../build/dobot_state_updater/dobot_state_updater.egg-info/requires.txt
+[1.503s] writing top-level names to ../../../build/dobot_state_updater/dobot_state_updater.egg-info/top_level.txt
+[1.504s] writing manifest file '../../../build/dobot_state_updater/dobot_state_updater.egg-info/SOURCES.txt'
+[1.505s] reading manifest file '../../../build/dobot_state_updater/dobot_state_updater.egg-info/SOURCES.txt'
+[1.506s] writing manifest file '../../../build/dobot_state_updater/dobot_state_updater.egg-info/SOURCES.txt'
+[1.506s] running build
+[1.506s] running build_py
+[1.506s] creating /home/ruslan/ros2_ws/build/dobot_state_updater/build
+[1.506s] creating /home/ruslan/ros2_ws/build/dobot_state_updater/build/lib
+[1.506s] creating /home/ruslan/ros2_ws/build/dobot_state_updater/build/lib/dobot_state_updater
+[1.507s] copying dobot_state_updater/__init__.py -> /home/ruslan/ros2_ws/build/dobot_state_updater/build/lib/dobot_state_updater
+[1.507s] copying dobot_state_updater/dobot_state_publ.py -> /home/ruslan/ros2_ws/build/dobot_state_updater/build/lib/dobot_state_updater
+[1.507s] running install
+[1.507s] running install_lib
+[1.508s] creating /home/ruslan/ros2_ws/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater
+[1.508s] copying /home/ruslan/ros2_ws/build/dobot_state_updater/build/lib/dobot_state_updater/__init__.py -> /home/ruslan/ros2_ws/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater
+[1.508s] copying /home/ruslan/ros2_ws/build/dobot_state_updater/build/lib/dobot_state_updater/dobot_state_publ.py -> /home/ruslan/ros2_ws/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater
+[1.508s] byte-compiling /home/ruslan/ros2_ws/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater/__init__.py to __init__.cpython-310.pyc
+[1.509s] byte-compiling /home/ruslan/ros2_ws/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater/dobot_state_publ.py to dobot_state_publ.cpython-310.pyc
+[1.510s] running install_data
+[1.510s] creating /home/ruslan/ros2_ws/install/dobot_state_updater/share/ament_index
+[1.510s] creating /home/ruslan/ros2_ws/install/dobot_state_updater/share/ament_index/resource_index
+[1.511s] creating /home/ruslan/ros2_ws/install/dobot_state_updater/share/ament_index/resource_index/packages
+[1.511s] copying resource/dobot_state_updater -> /home/ruslan/ros2_ws/install/dobot_state_updater/share/ament_index/resource_index/packages
+[1.511s] copying package.xml -> /home/ruslan/ros2_ws/install/dobot_state_updater/share/dobot_state_updater
+[1.511s] running install_egg_info
+[1.513s] Copying ../../../build/dobot_state_updater/dobot_state_updater.egg-info to /home/ruslan/ros2_ws/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater-1.0.0-py3.10.egg-info
+[1.514s] running install_scripts
+[1.532s] Installing state_publisher script to /home/ruslan/ros2_ws/install/dobot_state_updater/lib/dobot_state_updater
+[1.532s] writing list of installed files to '/home/ruslan/ros2_ws/build/dobot_state_updater/install.log'
+[1.552s] Invoked command in '/home/ruslan/ros2_ws/src/magician_ros2/dobot_state_updater' returned '0': AMENT_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ruslan/ros2_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ruslan/ros2_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_state_updater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_state_updater/lib/python3.10/site-packages:/home/ruslan/ros2_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_state_updater build --build-base /home/ruslan/ros2_ws/build/dobot_state_updater/build install --record /home/ruslan/ros2_ws/build/dobot_state_updater/install.log --single-version-externally-managed install_data

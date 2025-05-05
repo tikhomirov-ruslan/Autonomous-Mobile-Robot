@@ -1,0 +1,13 @@
+{
+  "package_name": "dobot_msgs",
+  "non_idl_tuples": [
+    "/home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs:action/PointToPoint.action",
+    "/home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs:action/SlidingRail.action",
+    "/home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs:msg/DobotAlarmCodes.msg",
+    "/home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs:msg/GripperStatus.msg",
+    "/home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs:srv/EvaluatePTPTrajectory.srv",
+    "/home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs:srv/ExecuteHomingProcedure.srv",
+    "/home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs:srv/GripperControl.srv",
+    "/home/ruslan/ros2_ws/src/magician_ros2/dobot_msgs:srv/SuctionCupControl.srv"
+  ]
+}

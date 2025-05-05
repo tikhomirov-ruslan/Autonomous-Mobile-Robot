@@ -1,0 +1,4 @@
+[console_scripts]
+dobot_controller_node = dobot_controller.dobot_controller_node:main
+hand_tracker_node = hand_tracker.hand_tracker:main
+

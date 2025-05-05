@@ -1,0 +1,24 @@
+[0.669s] Invoking command in '/home/ruslan/ros2_ws/src/webcam_publisher': PYTHONPATH=/home/ruslan/ros2_ws/build/webcam_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/webcam_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webcam_publisher build --build-base /home/ruslan/ros2_ws/build/webcam_publisher/build install --record /home/ruslan/ros2_ws/build/webcam_publisher/install.log --single-version-externally-managed install_data
+[0.818s] running egg_info
+[0.818s] writing ../../build/webcam_publisher/webcam_publisher.egg-info/PKG-INFO
+[0.818s] writing dependency_links to ../../build/webcam_publisher/webcam_publisher.egg-info/dependency_links.txt
+[0.819s] writing entry points to ../../build/webcam_publisher/webcam_publisher.egg-info/entry_points.txt
+[0.819s] writing requirements to ../../build/webcam_publisher/webcam_publisher.egg-info/requires.txt
+[0.819s] writing top-level names to ../../build/webcam_publisher/webcam_publisher.egg-info/top_level.txt
+[0.819s] reading manifest file '../../build/webcam_publisher/webcam_publisher.egg-info/SOURCES.txt'
+[0.820s] writing manifest file '../../build/webcam_publisher/webcam_publisher.egg-info/SOURCES.txt'
+[0.820s] running build
+[0.820s] running build_py
+[0.820s] copying webcam_publisher/webcam_publisher.py -> /home/ruslan/ros2_ws/build/webcam_publisher/build/lib/webcam_publisher
+[0.820s] running install
+[0.820s] running install_lib
+[0.820s] copying /home/ruslan/ros2_ws/build/webcam_publisher/build/lib/webcam_publisher/webcam_publisher.py -> /home/ruslan/ros2_ws/install/webcam_publisher/lib/python3.10/site-packages/webcam_publisher
+[0.821s] byte-compiling /home/ruslan/ros2_ws/install/webcam_publisher/lib/python3.10/site-packages/webcam_publisher/webcam_publisher.py to webcam_publisher.cpython-310.pyc
+[0.821s] running install_data
+[0.821s] running install_egg_info
+[0.822s] removing '/home/ruslan/ros2_ws/install/webcam_publisher/lib/python3.10/site-packages/webcam_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[0.822s] Copying ../../build/webcam_publisher/webcam_publisher.egg-info to /home/ruslan/ros2_ws/install/webcam_publisher/lib/python3.10/site-packages/webcam_publisher-0.0.0-py3.10.egg-info
+[0.823s] running install_scripts
+[0.836s] Installing webcam_publisher script to /home/ruslan/ros2_ws/install/webcam_publisher/lib/webcam_publisher
+[0.836s] writing list of installed files to '/home/ruslan/ros2_ws/build/webcam_publisher/install.log'
+[0.857s] Invoked command in '/home/ruslan/ros2_ws/src/webcam_publisher' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/webcam_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/webcam_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webcam_publisher build --build-base /home/ruslan/ros2_ws/build/webcam_publisher/build install --record /home/ruslan/ros2_ws/build/webcam_publisher/install.log --single-version-externally-managed install_data

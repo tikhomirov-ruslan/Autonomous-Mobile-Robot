@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/hand_tracker/hand_tracker.egg-info/PKG-INFO
+writing dependency_links to ../../build/hand_tracker/hand_tracker.egg-info/dependency_links.txt
+writing entry points to ../../build/hand_tracker/hand_tracker.egg-info/entry_points.txt
+writing requirements to ../../build/hand_tracker/hand_tracker.egg-info/requires.txt
+writing top-level names to ../../build/hand_tracker/hand_tracker.egg-info/top_level.txt
+reading manifest file '../../build/hand_tracker/hand_tracker.egg-info/SOURCES.txt'
+writing manifest file '../../build/hand_tracker/hand_tracker.egg-info/SOURCES.txt'
+running build
+running build_py
+copying hand_tracker/hand_tracker_node.py -> /home/ruslan/ros2_ws/build/hand_tracker/build/lib/hand_tracker
+running install
+running install_lib
+copying /home/ruslan/ros2_ws/build/hand_tracker/build/lib/hand_tracker/hand_tracker_node.py -> /home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages/hand_tracker
+byte-compiling /home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages/hand_tracker/hand_tracker_node.py to hand_tracker_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages/hand_tracker-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/hand_tracker/hand_tracker.egg-info to /home/ruslan/ros2_ws/install/hand_tracker/lib/python3.10/site-packages/hand_tracker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dobot_controller_node script to /home/ruslan/ros2_ws/install/hand_tracker/lib/hand_tracker
+Installing hand_tracker_node script to /home/ruslan/ros2_ws/install/hand_tracker/lib/hand_tracker
+writing list of installed files to '/home/ruslan/ros2_ws/build/hand_tracker/install.log'

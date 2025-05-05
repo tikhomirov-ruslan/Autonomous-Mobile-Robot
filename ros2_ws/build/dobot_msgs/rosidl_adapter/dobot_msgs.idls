@@ -1,0 +1,8 @@
+/home/ruslan/ros2_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:action/PointToPoint.idl
+/home/ruslan/ros2_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:action/SlidingRail.idl
+/home/ruslan/ros2_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:msg/DobotAlarmCodes.idl
+/home/ruslan/ros2_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:msg/GripperStatus.idl
+/home/ruslan/ros2_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:srv/EvaluatePTPTrajectory.idl
+/home/ruslan/ros2_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:srv/ExecuteHomingProcedure.idl
+/home/ruslan/ros2_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:srv/GripperControl.idl
+/home/ruslan/ros2_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:srv/SuctionCupControl.idl

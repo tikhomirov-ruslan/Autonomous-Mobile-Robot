@@ -1,0 +1,25 @@
+[0.675s] Invoking command in '/home/ruslan/ros2_ws/src/dobot_controller': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_controller build --build-base /home/ruslan/ros2_ws/build/dobot_controller/build install --record /home/ruslan/ros2_ws/build/dobot_controller/install.log --single-version-externally-managed install_data
+[0.814s] running egg_info
+[0.814s] writing ../../build/dobot_controller/dobot_controller.egg-info/PKG-INFO
+[0.814s] writing dependency_links to ../../build/dobot_controller/dobot_controller.egg-info/dependency_links.txt
+[0.814s] writing entry points to ../../build/dobot_controller/dobot_controller.egg-info/entry_points.txt
+[0.814s] writing requirements to ../../build/dobot_controller/dobot_controller.egg-info/requires.txt
+[0.815s] writing top-level names to ../../build/dobot_controller/dobot_controller.egg-info/top_level.txt
+[0.816s] reading manifest file '../../build/dobot_controller/dobot_controller.egg-info/SOURCES.txt'
+[0.816s] writing manifest file '../../build/dobot_controller/dobot_controller.egg-info/SOURCES.txt'
+[0.816s] running build
+[0.816s] running build_py
+[0.816s] copying dobot_controller/dobot_controller_node.py -> /home/ruslan/ros2_ws/build/dobot_controller/build/lib/dobot_controller
+[0.816s] running install
+[0.816s] running install_lib
+[0.817s] copying /home/ruslan/ros2_ws/build/dobot_controller/build/lib/dobot_controller/dobot_controller_node.py -> /home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages/dobot_controller
+[0.817s] byte-compiling /home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages/dobot_controller/dobot_controller_node.py to dobot_controller_node.cpython-310.pyc
+[0.817s] running install_data
+[0.817s] running install_egg_info
+[0.818s] removing '/home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages/dobot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.819s] Copying ../../build/dobot_controller/dobot_controller.egg-info to /home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages/dobot_controller-0.0.0-py3.10.egg-info
+[0.819s] running install_scripts
+[0.831s] Installing dobot_controller_node script to /home/ruslan/ros2_ws/install/dobot_controller/lib/dobot_controller
+[0.831s] Installing hand_tracker_node script to /home/ruslan/ros2_ws/install/dobot_controller/lib/dobot_controller
+[0.831s] writing list of installed files to '/home/ruslan/ros2_ws/build/dobot_controller/install.log'
+[0.849s] Invoked command in '/home/ruslan/ros2_ws/src/dobot_controller' returned '0': PYTHONPATH=/home/ruslan/ros2_ws/build/dobot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruslan/ros2_ws/install/dobot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_controller build --build-base /home/ruslan/ros2_ws/build/dobot_controller/build install --record /home/ruslan/ros2_ws/build/dobot_controller/install.log --single-version-externally-managed install_data

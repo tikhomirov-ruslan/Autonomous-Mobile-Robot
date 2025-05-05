@@ -1,0 +1,42 @@
+[0.513s] Invoking command in '/home/ruslan/ros2_ws/build/dobot_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ruslan/ros2_ws/install/dobot_visualization_tools:/home/ruslan/ros2_ws/install/dobot_state_updater:/home/ruslan/ros2_ws/install/dobot_motion:/home/ruslan/ros2_ws/install/dobot_kinematics:/home/ruslan/ros2_ws/install/dobot_homing:/home/ruslan/ros2_ws/install/dobot_end_effector:/home/ruslan/ros2_ws/install/dobot_diagnostics:/home/ruslan/ros2_ws/install/dobot_demos:/home/ruslan/ros2_ws/install/dobot_control_panel:/home/ruslan/ros2_ws/install/dobot_bringup:/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ruslan/ros2_ws/build/dobot_driver -- -j16 -l16
+[0.835s] Built target ament_cmake_python_copy_dobot_driver
+[0.835s] running egg_info
+[0.835s] writing dobot_driver.egg-info/PKG-INFO
+[0.835s] writing dependency_links to dobot_driver.egg-info/dependency_links.txt
+[0.835s] writing top-level names to dobot_driver.egg-info/top_level.txt
+[0.835s] reading manifest file 'dobot_driver.egg-info/SOURCES.txt'
+[0.835s] writing manifest file 'dobot_driver.egg-info/SOURCES.txt'
+[0.836s] Built target ament_cmake_python_build_dobot_driver_egg
+[1.005s] Invoked command in '/home/ruslan/ros2_ws/build/dobot_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ruslan/ros2_ws/install/dobot_visualization_tools:/home/ruslan/ros2_ws/install/dobot_state_updater:/home/ruslan/ros2_ws/install/dobot_motion:/home/ruslan/ros2_ws/install/dobot_kinematics:/home/ruslan/ros2_ws/install/dobot_homing:/home/ruslan/ros2_ws/install/dobot_end_effector:/home/ruslan/ros2_ws/install/dobot_diagnostics:/home/ruslan/ros2_ws/install/dobot_demos:/home/ruslan/ros2_ws/install/dobot_control_panel:/home/ruslan/ros2_ws/install/dobot_bringup:/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ruslan/ros2_ws/build/dobot_driver -- -j16 -l16
+[1.006s] Invoking command in '/home/ruslan/ros2_ws/build/dobot_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ruslan/ros2_ws/install/dobot_visualization_tools:/home/ruslan/ros2_ws/install/dobot_state_updater:/home/ruslan/ros2_ws/install/dobot_motion:/home/ruslan/ros2_ws/install/dobot_kinematics:/home/ruslan/ros2_ws/install/dobot_homing:/home/ruslan/ros2_ws/install/dobot_end_effector:/home/ruslan/ros2_ws/install/dobot_diagnostics:/home/ruslan/ros2_ws/install/dobot_demos:/home/ruslan/ros2_ws/install/dobot_control_panel:/home/ruslan/ros2_ws/install/dobot_bringup:/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ruslan/ros2_ws/build/dobot_driver
+[1.013s] -- Install configuration: ""
+[1.016s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/environment/pythonpath.sh
+[1.016s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/environment/pythonpath.dsv
+[1.016s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver-1.0.0-py3.10.egg-info
+[1.016s] -- Installing: /home/ruslan/ros2_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.016s] -- Installing: /home/ruslan/ros2_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.021s] -- Installing: /home/ruslan/ros2_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver-1.0.0-py3.10.egg-info/PKG-INFO
+[1.021s] -- Installing: /home/ruslan/ros2_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver-1.0.0-py3.10.egg-info/top_level.txt
+[1.021s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver
+[1.021s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver/dobot_handle.py
+[1.021s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver/__init__.py
+[1.021s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver/message.py
+[1.021s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver/parsers.py
+[1.021s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver/interface.py
+[1.044s] Listing '/home/ruslan/ros2_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver'...
+[1.044s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/ament_index/resource_index/package_run_dependencies/dobot_driver
+[1.044s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/ament_index/resource_index/parent_prefix_path/dobot_driver
+[1.044s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/environment/ament_prefix_path.sh
+[1.044s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/environment/ament_prefix_path.dsv
+[1.044s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/environment/path.sh
+[1.044s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/environment/path.dsv
+[1.044s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/local_setup.bash
+[1.044s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/local_setup.sh
+[1.044s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/local_setup.zsh
+[1.044s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/local_setup.dsv
+[1.044s] -- Installing: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/package.dsv
+[1.044s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/ament_index/resource_index/packages/dobot_driver
+[1.044s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/cmake/dobot_driverConfig.cmake
+[1.045s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/cmake/dobot_driverConfig-version.cmake
+[1.045s] -- Up-to-date: /home/ruslan/ros2_ws/install/dobot_driver/share/dobot_driver/package.xml
+[1.062s] Invoked command in '/home/ruslan/ros2_ws/build/dobot_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ruslan/ros2_ws/install/dobot_visualization_tools:/home/ruslan/ros2_ws/install/dobot_state_updater:/home/ruslan/ros2_ws/install/dobot_motion:/home/ruslan/ros2_ws/install/dobot_kinematics:/home/ruslan/ros2_ws/install/dobot_homing:/home/ruslan/ros2_ws/install/dobot_end_effector:/home/ruslan/ros2_ws/install/dobot_diagnostics:/home/ruslan/ros2_ws/install/dobot_demos:/home/ruslan/ros2_ws/install/dobot_control_panel:/home/ruslan/ros2_ws/install/dobot_bringup:/home/ruslan/ros2_ws/install/webcam_publisher:/home/ruslan/ros2_ws/install/hand_tracker:/home/ruslan/ros2_ws/install/dobot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ruslan/ros2_ws/build/dobot_driver
